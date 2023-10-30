@@ -1,5 +1,9 @@
-
-
+*{
+    overflow-x: hidden;
+}
+::-webkit-scrollbar{
+    display: hidden;
+}
 
 
 

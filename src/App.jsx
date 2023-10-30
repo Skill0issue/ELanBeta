@@ -1,12 +1,21 @@
+import {Routes,Route} from 'react-router-dom';
+import Home from './components/Home';
+import Competitions from './components/Competitions';
+import Events from './components/Events';
+import Team from './components/Team';
+import Workshops from './components/Workshops';
+
 function App() {
 
   return (
     <>
-    <div className="flex items-center justify-center w-screen h-screen bg-slate-600">
-      <h1 className="text-3xl font-bold">
-        HELLO
-      </h1>
-    </div>
+      <Routes>
+      <Route exact path='/' element={<Home />} />
+        <Route path='/Events' element={<Events />} />
+        <Route path='/Competitions' element={<Competitions />} />
+        <Route path='/Workshops' element={<Workshops />} />
+        <Route path='/Team' element={<Team />} />
+      </Routes>
     </>
   )
 }
