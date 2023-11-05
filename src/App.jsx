@@ -4,7 +4,7 @@ import Competitions from './components/Competitions';
 import Events from './components/Events';
 import Team from './components/Team';
 import Workshops from './components/Workshops';
-
+import SocialCause from './components/SocialCause';
 function App() {
 
   return (
@@ -15,6 +15,7 @@ function App() {
         <Route path='/Competitions' element={<Competitions />} />
         <Route path='/Workshops' element={<Workshops />} />
         <Route path='/Team' element={<Team />} />
+        <Route path='/SocialCause' element={<SocialCause/>} />
       </Routes>
     </>
   )

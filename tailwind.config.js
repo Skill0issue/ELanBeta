@@ -5,7 +5,22 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    screens:{
+      sm: '640px',
+      md: '950px', // Changed the default value from 768px to 950px
+      lg: '1024px',
+      xl: '1280px',
+    },
+    extend: {
+      fontFamily:{
+        'Lilita':'Lilita One',
+        'Londrina':'Londrina Solid',
+        'Notable':'Notable',
+      },
+      backgroundImage:{
+        'logo-image':"url('/assets/elan.png')"
+      },
+    },
   },
   plugins: [],
 }

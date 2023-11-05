@@ -1,50 +1,62 @@
-import { useState,useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import {FaBarsStaggered} from 'react-icons/fa6';
+import {
+  AiOutlineInstagram,
+  AiOutlineYoutube,
+  AiFillLinkedin,
+} from "react-icons/ai";
+
 const Navbar = () => {
-    const [displayLinks,setDisplayLinks] = useState(false);
-    const handleNavbar = ()=>{
-     setDisplayLinks(!displayLinks);   
+  const [displayLinks, setDisplayLinks] = useState(false);
+  const [isOpen, setIsOpen] =useState(true);
+  const handleNavbar = () => {
+    setDisplayLinks(!displayLinks);
+    setIsOpen(!isOpen);
+  };
+  useEffect(() => {
+    const handleResize = () => {
+        if (window.screen.width > 950) {
+          setDisplayLinks(false);
+          setIsOpen(true);
+        } else {
+          setIsOpen(true); 
+          setDisplayLinks(false);
+        }
+      };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
     };
-    useEffect(() => {
-        const handleResize = () => {
-            if (window.screen.width > 768) {
-                setDisplayLinks(false);
-            }
-        };
+  }, []);
 
-        window.addEventListener('resize', handleResize);
-
-        return () => {
-            window.removeEventListener('resize', handleResize);
-        };
-    }, []);
-
-    
   return (
     <>
-      <div className="flex justify-between">
-        <img src="/assets/elan.png" alt="elan.png" className="w-16 h-16 sm:ml-8" />
-        <div className={`links justify-evenly w-screen sm:w-[90%] sm:text-xl text-md md:pr-8 font-bold ${displayLinks ? 'flex flex-col mt-16 ' : 'hidden'} md:flex`}>
-          <Link to="/Events" className="bg-[#F68989] p-2 my-2">
-            Events
-          </Link>
-          <Link to="/Competitions" className="bg-[#F68989] p-2 my-2">
-            Compettitons
-          </Link>
-          <Link to="/Workshops" className="bg-[#F68989] p-2 my-2">
-            Workshops
-          </Link>
-          <Link to="/Social Cause" className="bg-[#F68989] p-2 my-2">
-            Social Cause
-          </Link>
-          <Link to="/Team" className="bg-[#F68989] p-2 my-2">
-            Team
+      <div className={`w-screen md:bg-[transparent] ${displayLinks?'bg-[#EE6983] h-screen':'bg-[transparent]'} flex flex-col md:h-16 items-center  justify-between fixed top-0`}>
+        <div className="flex flex-row-reverse items-center justify-between w-screen p-4 cursor-pointer md:hidden">
+          <div id="nav-icon4" className={isOpen ? '':'open'} onClick={handleNavbar}>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <Link to="/">
+          <img className="w-20 h-20 aspect-square" src={'/assets/elan.png'}/>
           </Link>
         </div>
-      <div className="flex h-16 p-6 cursor-pointer md:hidden " onClick={handleNavbar}>
-        <FaBarsStaggered size={32} />
-      </div>
+        <div className={`${displayLinks?'flex flex-col color-white w-screen':'hidden'} md:flex md:w-screen links justify-evenly md:flex-row md:h-16 h-[80%] items-center`}>
+          {/* <Link to="/">Home</Link> */}
+          <Link to="/Events">Events</Link>
+          <Link to="/Competitions">Competitions</Link>
+          <Link to='/SocialCause'>SocialCause</Link>
+          <Link to="Workshops">Workshops</Link>
+          <Link to="/Team">Team</Link>
+        </div>
+        <div className={`${displayLinks?'flex':'hidden'} flex-row w-screen gap-2 p-4 md:hidden`}>
+          <AiOutlineInstagram size={64} color="white"/>
+          <AiOutlineYoutube size={64} color='white' />
+          <AiFillLinkedin size={64} color='white' />
+        </div>
       </div>
     </>
   );
