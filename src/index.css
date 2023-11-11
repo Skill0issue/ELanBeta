@@ -10,7 +10,7 @@
 }
 
 .links>*{
-    @apply p-2 text-2xl font-bold md:bg-[#F68989] text-white md:text-black capitalize font-Notable text-center tracking-wide md:tracking-tight;
+    @apply p-2 md:text-2xl text-4xl font-bold md:bg-[#F68989] text-white md:text-black capitalize font-Notable text-center tracking-wider;
 }
 #nav-icon4 {
     width: 60px;

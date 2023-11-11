@@ -33,7 +33,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className={`w-screen md:bg-[transparent] ${displayLinks?'bg-[#EE6983] h-screen':'bg-[transparent]'} flex flex-col md:h-16 items-center  justify-between fixed top-0`}>
+      <div className={`w-screen md:bg-[#FFF5E4] ${displayLinks?'bg-[#EE6983] h-screen':'bg-[transparent]'} flex flex-col md:h-16 items-center  justify-between fixed top-0`}>
         <div className="flex flex-row-reverse items-center justify-between w-screen p-4 cursor-pointer md:hidden">
           <div id="nav-icon4" className={isOpen ? '':'open'} onClick={handleNavbar}>
             <span></span>
@@ -52,7 +52,7 @@ const Navbar = () => {
           <Link to="Workshops">Workshops</Link>
           <Link to="/Team">Team</Link>
         </div>
-        <div className={`${displayLinks?'flex':'hidden'} flex-row w-screen gap-2 p-4 md:hidden`}>
+        <div className={`${displayLinks?'flex':'hidden'} flex-row w-screen gap-2 p-4 md:hidden mb-4`}>
           <AiOutlineInstagram size={64} color="white"/>
           <AiOutlineYoutube size={64} color='white' />
           <AiFillLinkedin size={64} color='white' />

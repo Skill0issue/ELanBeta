@@ -31,7 +31,7 @@ const Home = () => {
           </div>
         </section>
         <section className="w-screen h-screen">
-          
+
         </section>
         <section></section>
         <Footer />
