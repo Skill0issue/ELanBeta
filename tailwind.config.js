@@ -16,6 +16,7 @@ export default {
         'Lilita':'Lilita One',
         'Londrina':'Londrina Solid',
         'Notable':'Notable',
+        'Mplus':"'M PLUS 1p', sans-serif",
       },
       backgroundImage:{
         'logo-image':"url('/assets/elan.png')"
