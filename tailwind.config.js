@@ -13,10 +13,12 @@ export default {
     },
     extend: {
       fontFamily:{
-        'Lilita':'Lilita One',
-        'Londrina':'Londrina Solid',
-        'Notable':'Notable',
+        'Lilita':"'Lilita One'",
+        'Londrina':"'Londrina Solid'",
+        'Notable':'"Notable"',
         'Mplus':"'M PLUS 1p', sans-serif",
+        'Moul':"'Moul'",
+        'MoulPali':"'Moulpali'",
       },
       backgroundImage:{
         'logo-image':"url('/assets/elan.png')"

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Londrina+Solid&family=Notable&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Moul&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moulpali&display=swap');
 
 *{
     overflow-x: hidden;
@@ -13,8 +14,8 @@
     @apply p-2 md:text-2xl text-4xl font-bold md:bg-[#F68989] text-white md:text-black capitalize font-Notable text-center tracking-wider;
 }
 #nav-icon4 {
-    width: 60px;
-    height: 45px;
+    width: 30px;
+    height: 30px;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
@@ -29,10 +30,10 @@
 #nav-icon4 >:nth-child(odd){
     display: block;
     position: absolute;
-    height: 9px;
+    height: 5px;
     width: 100%;
     background: #850E35;
-    border-radius: 9px;
+    border-radius: 3px;
     opacity: 1;
     left: 0;
     -webkit-transform: rotate(0deg);
@@ -48,10 +49,10 @@
 #nav-icon4>:nth-child(2){
     display: block;
     position: absolute;
-    height: 9px;
+    height: 5px;
     width: 80%;
     background: #850E35;
-    border-radius: 9px;
+    border-radius: 3px;
     opacity: 1;
     right: 0;
     -webkit-transform: rotate(0deg);
@@ -73,7 +74,7 @@
 }
 
 #nav-icon4 span:nth-child(2) {
-  top: 18px;
+  top: 11px;
   -webkit-transform-origin: left center;
   -moz-transform-origin: left center;
   -o-transform-origin: left center;
@@ -81,7 +82,7 @@
 }
 
 #nav-icon4 span:nth-child(3) {
-  top: 36px;
+  top: 21px;
   -webkit-transform-origin: left center;
   -moz-transform-origin: left center;
   -o-transform-origin: left center;
@@ -93,8 +94,8 @@
   -moz-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
-  top: -3px;
-  left: 8px;
+  left: 3px;
+  top: 0px;
 }
 
 #nav-icon4.open span:nth-child(2) {
@@ -107,15 +108,14 @@
   -moz-transform: rotate(-45deg);
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
-  top: 39px;
-  left: 8px;
+  top: 21px;
+  left: 2px;
 }
 
 /* HOmepage */
 .logo-image{
-    width: 127px;
-    height: 127px;
-    flex-shrink: 0;
+    width: 120px;
+    height: 120px;
     background:50% / cover no-repeat;
     margin-bottom: -5%;
 }
@@ -159,8 +159,40 @@ border: 7px solid #EE6983;
 background: #FFF5E4;
 margin-top:-3.5%;
 }
+/* About Us */
+.followers>*{
+  @apply items-center w-auto h-auto p-2 text-xl text-center text-white font-Moul;
+}
+.followers>*>h1{
+  @apply text-5xl
+}
 
 
+
+
+/* swiper */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 
 @media screen and (max-width:1000px){
@@ -171,8 +203,41 @@ margin-top:-3.5%;
     .border-register{
         width:screen;
         height:80px;
-        margin-top:-6%
+        margin-top:-9%
     }
+    .logo-image{
+      margin-bottom: -10%;
+    }
+}
+@media screen and (max-width:700px){
+  .heading-1{
+    font-size: 5rem;
+    width: screen;
+  }
+  .border-register{
+    margin-top: -14%;
+    width: max-content;
+    padding: 4px;
+    height: max-content;
+  }
+  .link-register{
+    font-size: 30px;
+  }
+  .logo-image{
+    margin-bottom: -15%;
+  }
+}
+@media screen and (max-width:500px) {
+  .heading-1{
+    font-size: 3rem;
+    margin-bottom: -8%;
+  }
+  .border-register{
+    margin-top:-15%;
+  }
+  .logo-image{
+    margin-bottom:-40%;
+  }
 }
 @tailwind base;
 @tailwind components;

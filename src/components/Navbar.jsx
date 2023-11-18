@@ -9,6 +9,7 @@ import {
 const Navbar = () => {
   const [displayLinks, setDisplayLinks] = useState(false);
   const [isOpen, setIsOpen] =useState(true);
+  const [logoVisible,setLogoVisible] = useState(false);
   const handleNavbar = () => {
     setDisplayLinks(!displayLinks);
     setIsOpen(!isOpen);
@@ -30,10 +31,23 @@ const Navbar = () => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
+  useEffect(()=>{
+    const handleLogo = () =>{
+      if(window.scrollY<window.innerHeight/3){
+        setLogoVisible(false);
+      }else{
+        setLogoVisible(true);
+      }
+    };
+    window.addEventListener('scroll',handleLogo);
+    return()=>{
+      window.removeEventListener('scroll',handleLogo);
+    }
+  },[]);
 
   return (
     <>
-      <div className={`w-screen md:bg-[#FFF5E4] ${displayLinks?'bg-[#EE6983] h-screen':'bg-[transparent]'} flex flex-col md:h-16 items-center  justify-between fixed top-0`}>
+      <div className={`w-screen md:bg-[#FFF5E4] ${displayLinks?'bg-[#EE6983] h-screen':'bg-[#FFF5E3]'} flex flex-col md:h-16 items-center z-50 justify-between fixed top-0`}>
         <div className="flex flex-row-reverse items-center justify-between w-screen p-4 cursor-pointer md:hidden">
           <div id="nav-icon4" className={isOpen ? '':'open'} onClick={handleNavbar}>
             <span></span>
@@ -41,7 +55,7 @@ const Navbar = () => {
             <span></span>
           </div>
           <Link to="/">
-          <img className="w-20 h-20 aspect-square" src={'/assets/elan.png'}/>
+          <img className={`w-10 h-10 aspect-square ${logoVisible?'':'hidden'}`} src={'/assets/elan.png'}/>
           </Link>
         </div>
         <div className={`${displayLinks?'flex flex-col color-white w-screen':'hidden'} md:flex md:w-screen links justify-evenly md:flex-row md:h-16 h-[80%] items-center`}>
