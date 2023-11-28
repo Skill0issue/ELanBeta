@@ -63,7 +63,7 @@ const Navbar = () => {
           <Link to="/Events">Events</Link>
           <Link to="/Competitions">Competitions</Link>
           <Link to='/SocialCause'>SocialCause</Link>
-          <Link to="Workshops">Workshops</Link>
+          <Link to="/Workshops">Workshops</Link>
           <Link to="/Team">Team</Link>
         </div>
         <div className={`${displayLinks?'flex':'hidden'} flex-row w-screen gap-2 p-4 md:hidden mb-4`}>
