@@ -10,6 +10,7 @@ import armaan from '../assets/profile/armaan.jpeg'
 import nihar from '../assets/profile/nihar.jpeg'
 import sadhika from '../assets/profile/sadhika.jpeg'
 import dhruv from '../assets/profile/dhruv.jpg'
+import dhruva from '../assets/profile/dhruva.png'
 import lakshya from '../assets/profile/lakshya.jpg'
 import vildaan from '../assets/profile/vildaan.jpg'
 import tanmay from '../assets/profile/tanmay.jpg'
@@ -53,10 +54,24 @@ import anirudh from '../assets/profile/anirudh.jpg'
 import agam from '../assets/profile/agam.jpg'
 import arjun from '../assets/profile/arjun.jpg'
 import ram from '../assets/profile/ram.jpg'
+import anand from '../assets/profile/anand.jpg'
+import abhay from '../assets/profile/abhay.jpg'
+import edward from '../assets/profile/edward.jpg'
 import shruti from '../assets/profile/shruti.jpeg'
 import hari from '../assets/profile/hari.jpeg'
 import edara from '../assets/profile/edara.jpeg'
+import adityas from '../assets/profile/adityas.jpg'
+import suddhodhan from '../assets/profile/suddhodhan.jpg'
+import anurag from '../assets/profile/anurag.jpg'
 import vishnus from '../assets/profile/vishnus.jpeg'
+import yash from '../assets/profile/yash.jpeg'
+import monish from '../assets/profile/monish.jpg'
+import shees from '../assets/profile/shees.jpg'
+import madhurima from '../assets/profile/madhurima.jpg'
+import saikumar from '../assets/profile/saikumar.jpg'
+import sreevas from '../assets/profile/yash.jpeg'
+import kamya from '../assets/profile/kamya.jpeg'
+import vaishnavi from '../assets/profile/vaishnavi.jpeg'
 
 
 const Team = () => {
@@ -82,23 +97,23 @@ const Team = () => {
             <ProfileCoord name={"ARMAAN"} domain={"WEB"} profilePhoto={armaan}/>
             <ProfileCoord name={"NIHAR"} domain={"WEB"} profilePhoto={nihar}/>
             <ProfileCoord name={"SADHIKA"} domain={"PR"} profilePhoto={sadhika}/>
-            <ProfileCoord name={"DHRUV"} domain={"PR"} profilePhoto={dhruv}/>
+            <ProfileCoord name={"DHRUV S."} domain={"PR"} profilePhoto={dhruv}/>
             <ProfileCoord name={"LAKSHYA"} domain={"PR"} profilePhoto={lakshya}/>
             <ProfileCoord name={"VILDAAN"} domain={"INFORMALS"} profilePhoto={vildaan}/>
-            <ProfileCoord name={"MADHURIMA"} domain={"INFORMALS"} profilePhoto={""}/>
+            <ProfileCoord name={"MADHURIMA"} domain={"INFORMALS"} profilePhoto={madhurima}/>
             </div>
 
             <span className="inline-block text-4xl mb-8">
               TECHY & WORKSHOPS
             </span>
             <div className="flex flex-row flex-wrap">
-            <ProfileCard name={"ADITYA S."} position={"HEAD"} profilePhoto={""}/>
-            <ProfileCoord name={"VAISHNAVI"} domain={"TECHY"} profilePhoto={""}/>
+            <ProfileCard name={"ADITYA S."} position={"HEAD"} profilePhoto={adityas}/>
+            <ProfileCoord name={"VAISHNAVI"} domain={"TECHY"} profilePhoto={vaishnavi}/>
             <ProfileCoord name={"YASWANTH"} domain={"TECHY"} profilePhoto={edara}/>
             <ProfileCoord name={"ANIRUDH"} domain={"TECHY"} profilePhoto={anirudh}/>
             <ProfileCoord name={"MEET"} domain={"WORKSHOPS"} profilePhoto={meet}/>
             <ProfileCoord name={"SHRUTI"} domain={"WORKSHOPS"} profilePhoto={shruti}/>
-            <ProfileCoord name={"K.J. ABHAY"} domain={"WORKSHOPS"} profilePhoto={""}/>
+            <ProfileCoord name={"K.J. ABHAY"} domain={"WORKSHOPS"} profilePhoto={abhay}/>
             </div>
 
             <span className="inline-block text-4xl mb-8">
@@ -107,7 +122,7 @@ const Team = () => {
             <div className="flex flex-row flex-wrap">
             <ProfileCard name={"GAURANG"} position={"HEAD"} profilePhoto={""}/>
             <ProfileCoord name={"TANMAY"} domain={"PRODUCTION"} profilePhoto={tanmay}/>
-            <ProfileCoord name={"SHEES"} domain={"PRODUCTION"} profilePhoto={""}/>
+            <ProfileCoord name={"SHEES"} domain={"PRODUCTION"} profilePhoto={shees}/>
             <ProfileCoord name={"AGAM"} domain={"SECURITY"} profilePhoto={agam}/>
             </div>
 
@@ -115,12 +130,12 @@ const Team = () => {
               SPONSORSHIP
             </span>
             <div className="flex flex-row flex-wrap">
-            <ProfileCard name={"YASH"} position={"HEAD"} profilePhoto={""}/>
+            <ProfileCard name={"YASH"} position={"HEAD"} profilePhoto={yash}/>
             <ProfileCoord name={"ADITYA V.S."} domain={"SPONSORSHIP"} profilePhoto={adityavs}/>
             <ProfileCoord name={"SHIVANAND"} domain={"SPONSORSHIP"} profilePhoto={shivanand}/>
             <ProfileCoord name={"NAMANPREET"} domain={"SPONSORSHIP"} profilePhoto={naman}/>
             <ProfileCoord name={"ANEK"} domain={"SPONSORSHIP"} profilePhoto={anek}/>
-            <ProfileCoord name={"SREEVAS"} domain={"SPONSORSHIP"} profilePhoto={""}/>
+            <ProfileCoord name={"SREEVAS"} domain={"SPONSORSHIP"} profilePhoto={sreevas}/>
             <ProfileCoord name={"VISHNU S."} domain={"SPONSORSHIP"} profilePhoto={vishnus}/>
             </div>
 
@@ -134,8 +149,8 @@ const Team = () => {
             <ProfileCoord name={"KARTIKEYA"} domain={"PUBLICITY"} profilePhoto={kartikeya}/>
             <ProfileCoord name={"ANANYA S."} domain={"PUBLICITY"} profilePhoto={ananya}/>
             <ProfileCoord name={"N. CHETANA"} domain={"PUBLICITY"} profilePhoto={chetana}/>
-            <ProfileCoord name={"SUDDHODHAN"} domain={"PUBLICITY"} profilePhoto={""}/>
-            <ProfileCoord name={"SAIKUMAR"} domain={"PUBLICITY"} profilePhoto={""}/>
+            <ProfileCoord name={"SUDDHODHAN"} domain={"PUBLICITY"} profilePhoto={suddhodhan}/>
+            <ProfileCoord name={"SAIKUMAR"} domain={"PUBLICITY"} profilePhoto={saikumar}/>
             <ProfileCoord name={"RAM"} domain={"PUBLICITY"} profilePhoto={ram}/>
             </div>
 
@@ -161,7 +176,7 @@ const Team = () => {
             <ProfileCoord name={"SYED M."} domain={"INFRA"} profilePhoto={syed}/>
             <ProfileCoord name={"SAKETH"} domain={"INFRA"} profilePhoto={saketh}/>
             <ProfileCoord name={"SUMUKHA"} domain={"INFRA"} profilePhoto={sumukha}/>
-            <ProfileCoord name={"ANAND"} domain={"INFRA"} profilePhoto={""}/>
+            <ProfileCoord name={"ANAND"} domain={"INFRA"} profilePhoto={anand}/>
             <ProfileCoord name={"BHAVESH"} domain={"TRANSPORT"} profilePhoto={bhavesh}/>
             <ProfileCoord name={"C.V.P. REDDY"} domain={"TRANSPORT"} profilePhoto={paav}/>
             </div>
@@ -174,11 +189,11 @@ const Team = () => {
             <ProfileCoord name={"DEEKSHITHA"} domain={"CULTI & BIGGIES"} profilePhoto={deekshitha}/>
             <ProfileCoord name={"VISHNU P."} domain={"CULTI & BIGGIES"} profilePhoto={vishnup}/>
             <ProfileCoord name={"SHREYA B."} domain={"CULTI & BIGGIES"} profilePhoto={shreyab}/>
-            <ProfileCoord name={"DHRUV A."} domain={"CULTI & BIGGIES"} profilePhoto={""}/>
-            <ProfileCoord name={"MONISH"} domain={"EML"} profilePhoto={""}/>
+            <ProfileCoord name={"DHRUV A."} domain={"CULTI & BIGGIES"} profilePhoto={dhruva}/>
+            <ProfileCoord name={"MONISH"} domain={"EML"} profilePhoto={monish}/>
             <ProfileCoord name={"UMAIR"} domain={"Litr"} profilePhoto={umair}/>
             <ProfileCoord name={"PURAN"} domain={"Litr"} profilePhoto={puran}/>
-            <ProfileCoord name={"EDWARD"} domain={"Litr"} profilePhoto={""}/>
+            <ProfileCoord name={"EDWARD"} domain={"Litr"} profilePhoto={edward}/>
             <ProfileCoord name={"ASRITHA"} domain={"SOCIAL CAUSE"} profilePhoto={asritha}/>
             </div>
 
@@ -193,10 +208,10 @@ const Team = () => {
             <ProfileCoord name={"ANKITA"} domain={"CREATIVES"} profilePhoto={ankita}/>
             <ProfileCoord name={"RADHIKA"} domain={"CREATIVES"} profilePhoto={radhika}/>
             <ProfileCoord name={"HARI"} domain={"CREATIVES"} profilePhoto={hari}/>
-            <ProfileCoord name={"KAMYA R."} domain={"CREATIVES"} profilePhoto={""}/>
+            <ProfileCoord name={"KAMYA R."} domain={"CREATIVES"} profilePhoto={kamya}/>
             <ProfileCoord name={"SAHIL"} domain={"MULTIMEDIA"} profilePhoto={sahil}/>
             <ProfileCoord name={"SNEHIL"} domain={"MULTIMEDIA"} profilePhoto={snehil}/>
-            <ProfileCoord name={"ANURAG"} domain={"MULTIMEDIA"} profilePhoto={""}/>
+            <ProfileCoord name={"ANURAG"} domain={"MULTIMEDIA"} profilePhoto={anurag}/>
             <ProfileCoord name={"ARJUN"} domain={"MULTIMEDIA"} profilePhoto={arjun}/>
             </div>
 
