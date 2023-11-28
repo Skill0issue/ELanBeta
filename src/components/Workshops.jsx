@@ -10,7 +10,7 @@ const Workshops = () => {
     <>
       <div className="w-screen bg-[#FFF5E4]">
         <Navbar />
-        <section className="w-screen h-[55vh] md:h-screen md:m-0 pt-24">
+        <section className="w-screen overflow-clip md:h-[60rem] md:m-0 pt-24">
           <Link to="/">
             <AiOutlineArrowLeft
               size={60}
@@ -29,7 +29,7 @@ const Workshops = () => {
             </ul>
           </div>
           <div className="text-3xl p-4 mb-6 overflow-hidden text-[#850E35] font-bold flex flex-col items-center">
-            <span className="inline-block">
+            <span className="inline-block overflow-hidden">
               UPCOMING WORKSHOPS
             </span>
             <WorkshopCard
