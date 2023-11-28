@@ -12,6 +12,7 @@ import {
   Autoplay,
 } from "swiper/modules";
 import "swiper/css/bundle";
+import AfterMovie from "./AfterMovie";
 
 const Home = () => {
   const handleScrollDown = () => {
@@ -45,7 +46,7 @@ const Home = () => {
           </div>
         </section>
         <section className="flex flex-col items-center w-screen h-[45vh] md:h-[30vh] justify-evenly md:mt-24 ">
-          <div className="w-screen flex justify-evenly h-[10rem] followers bg-[#EE6983] items-center overflow-auto">
+          <div className="w-screen flex justify-evenly h-[15rem] followers bg-[#EE6983] items-center overflow-auto">
             <span>
               <h1>250+</h1>
               COLLEGES
@@ -62,9 +63,10 @@ const Home = () => {
         </section>
         <section className="flex justify-center w-screen h-[90vh] mt-[-20vh]">
           <div className=" flex flex-col items-center justify-center tex-center h-full w-[90%] md:w-[70%] p-4">
-            <div className="font-Moul text-[#850E35] text-6xl p-4 mb-6 overflow-hidden">
+            <div className="font-Moul text-[#850E35] text-4xl md:text-5xl lg:text-6xl p-4 mb-6 overflow-hidden">
               ABOUT US
             </div>
+
             <div className="overflow-hidden text-2xl leading-snug font-MoulPali">
               Elan and ηVision is the annual techno-cultural fest of IIT
               Hyderabad and is one of the largest fests in South India. Elan
@@ -104,7 +106,7 @@ const Home = () => {
               disableOnInteraction: false,
             }}
             pagination={{ clickable: true, DynamicBullets: true }}
-            scrollbar={{draggable:true,hide:true}}
+            scrollbar={{ draggable: true, hide: true }}
             onSlideChange={() => console.log("slide changed")}
             onSwiper={(swiper) => console.log(swiper)}
           >
@@ -118,16 +120,9 @@ const Home = () => {
             <SwiperSlide>slide 8</SwiperSlide>
           </Swiper>
         </section>
-        <section className="w-screen h-[50vh]">
+        <section className="w-screen h-screen">
           <div className={`after-movie flex justify-center items-center`}>
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/7RWJMat8JM4?si=lbrFwodVsj4Tx40j"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen={true}
-            ></iframe>
+            <AfterMovie />
           </div>
         </section>
         <Footer />
