@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import Footer from './Footer';
 import { AiOutlineArrowLeft } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
+import WorkshopCard from './WorkshopCard';
 
 const Workshops = () => {
   return (
@@ -31,6 +32,12 @@ const Workshops = () => {
             <span className="inline-block">
               UPCOMING WORKSHOPS
             </span>
+            <WorkshopCard
+              title={"Sample Event"}
+              description={"Just Trying out this sample Just Trying out this sample "}
+              img={""}
+              registration={""}
+            />
           </div>
         </section>
         <Footer />
