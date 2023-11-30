@@ -79,7 +79,7 @@ const Team = () => {
     <>
       <div className="w-screen bg-[#FFF5E4]">
         <Navbar />
-        <section className="w-screen h-screen md:h-screen md:m-0 pt-24">
+        <section className="w-screen h-auto pt-24 md:h-auto md:m-0">
           <Link to="/">
             <AiOutlineArrowLeft
               size={60}
@@ -88,7 +88,7 @@ const Team = () => {
             />
           </Link>
           <div className="text-3xl p-4 mb-6 text-[#850E35] font-bold flex flex-col items-center">
-            <span className="inline-block text-4xl mb-8">
+            <span className="inline-block mb-8 text-4xl">
               PR, WEB & INFORMALS
             </span>
             <div className="flex flex-row flex-wrap">
@@ -103,7 +103,7 @@ const Team = () => {
             <ProfileCoord name={"MADHURIMA"} domain={"INFORMALS"} profilePhoto={madhurima}/>
             </div>
 
-            <span className="inline-block text-4xl mb-8">
+            <span className="inline-block mb-8 text-4xl">
               TECHY & WORKSHOPS
             </span>
             <div className="flex flex-row flex-wrap">
@@ -116,7 +116,7 @@ const Team = () => {
             <ProfileCoord name={"K.J. ABHAY"} domain={"WORKSHOPS"} profilePhoto={abhay}/>
             </div>
 
-            <span className="inline-block text-4xl mb-8">
+            <span className="inline-block mb-8 text-4xl">
               PRODUCTION, PRONITES & SECURITY
             </span>
             <div className="flex flex-row flex-wrap">
@@ -126,7 +126,7 @@ const Team = () => {
             <ProfileCoord name={"AGAM"} domain={"SECURITY"} profilePhoto={agam}/>
             </div>
 
-            <span className="inline-block text-4xl mb-8">
+            <span className="inline-block mb-8 text-4xl">
               SPONSORSHIP
             </span>
             <div className="flex flex-row flex-wrap">
@@ -139,7 +139,7 @@ const Team = () => {
             <ProfileCoord name={"VISHNU S."} domain={"SPONSORSHIP"} profilePhoto={vishnus}/>
             </div>
 
-            <span className="inline-block text-4xl mb-8">
+            <span className="inline-block mb-8 text-4xl">
               PUBLICITY
             </span>
             <div className="flex flex-row flex-wrap">
@@ -154,7 +154,7 @@ const Team = () => {
             <ProfileCoord name={"RAM"} domain={"PUBLICITY"} profilePhoto={ram}/>
             </div>
 
-            <span className="inline-block text-4xl mb-8">
+            <span className="inline-block mb-8 text-4xl">
               FINANCE
             </span>
             <div className="flex flex-row flex-wrap">
@@ -162,7 +162,7 @@ const Team = () => {
             <ProfileCoord name={"ARYAN B."} domain={"FINANCE"} profilePhoto={aryanb}/>
             </div>
 
-            <span className="inline-block text-4xl mb-8">
+            <span className="inline-block mb-8 text-4xl">
               HOSPITALITY, INFRA & TRANSPORT
             </span>
             <div className="flex flex-row flex-wrap">
@@ -181,7 +181,7 @@ const Team = () => {
             <ProfileCoord name={"C.V.P. REDDY"} domain={"TRANSPORT"} profilePhoto={paav}/>
             </div>
 
-            <span className="inline-block text-4xl mb-8">
+            <span className="inline-block mb-8 text-4xl">
               CULTI & BIGGIES, EML, LITR, SOCIAL CAUSE
             </span>
             <div className="flex flex-row flex-wrap">
@@ -197,7 +197,7 @@ const Team = () => {
             <ProfileCoord name={"ASRITHA"} domain={"SOCIAL CAUSE"} profilePhoto={asritha}/>
             </div>
 
-            <span className="inline-block text-4xl mb-8">
+            <span className="inline-block mb-8 text-4xl">
               CREATIVES & MULTIMEDIA
             </span>
             <div className="flex flex-row flex-wrap">

@@ -1,18 +1,11 @@
+
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
 import { AiOutlineArrowDown } from "react-icons/ai";
-import { Swiper, SwiperSlide } from "swiper/react";
-import {
-  Navigation,
-  Pagination,
-  Scrollbar,
-  A11y,
-  EffectCoverflow,
-  Autoplay,
-} from "swiper/modules";
 import "swiper/css/bundle";
-import AfterMovie from "./AfterMovie";
+import ImageGrid from "./Grid";
+
 
 const Home = () => {
   const handleScrollDown = () => {
@@ -78,51 +71,26 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <section className="w-screen h-screen">
-          <Swiper
-            modules={[
-              Navigation,
-              Pagination,
-              Scrollbar,
-              A11y,
-              EffectCoverflow,
-              Autoplay,
-            ]}
-            className="h-auto mySwiper"
-            slidesPerView={3}
-            spaceBetween={30}
-            loop={true}
-            // centeredSlides={true}
-            loopAdditionalSlides={4}
-            coverflowEffect={{
-              rotate: 50,
-              stretch: -20,
-              depth: 100,
-              modifier: 1,
-              slideShadows: true,
-            }}
-            autoplay={{
-              delay: 2500,
-              disableOnInteraction: false,
-            }}
-            pagination={{ clickable: true, DynamicBullets: true }}
-            scrollbar={{ draggable: true, hide: true }}
-            onSlideChange={() => console.log("slide changed")}
-            onSwiper={(swiper) => console.log(swiper)}
-          >
-            <SwiperSlide>slide 1</SwiperSlide>
-            <SwiperSlide>slide 2</SwiperSlide>
-            <SwiperSlide>slide 3</SwiperSlide>
-            <SwiperSlide>slide 4</SwiperSlide>
-            <SwiperSlide>slide 5</SwiperSlide>
-            <SwiperSlide>slide 6</SwiperSlide>
-            <SwiperSlide>slide 7</SwiperSlide>
-            <SwiperSlide>slide 8</SwiperSlide>
-          </Swiper>
+        <section className="w-screen h-auto ">
+
+          <ImageGrid/>
+
         </section>
         <section className="w-screen h-screen">
           <div className={`after-movie flex justify-center items-center`}>
-            <AfterMovie />
+            <div className={`w-[826px] h-[450px] relative  `}>
+              <div className="bg-[#850e35] absolute right-[3.87%] left-[0%] w-[96.13%] bottom-[0%] top-[8.22%] h-[91.78%]"></div>
+              <div className="bg-[#f68989] absolute right-[0%] left-[3.87%] w-[96.13%] bottom-[8.22%] top-[0%] h-[91.78%]"></div>
+              <iframe
+                className="absolute right-[5.93%] left-[9.93%] w-[84.14%] bottom-[16.67%] top-[8.67%] h-[74.67%]"
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/7RWJMat8JM4?si=lbrFwodVsj4Tx40j"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen={true}
+              ></iframe>
+            </div>
           </div>
         </section>
         <Footer />
