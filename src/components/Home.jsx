@@ -54,13 +54,13 @@ const Home = () => {
             </span>
           </div>
         </section>
-        <section className="flex justify-center w-screen h-[90vh] mt-[-20vh]">
+        <section className="flex justify-center w-screen h-[80vh] mt-[-20vh]">
           <div className=" flex flex-col items-center justify-center tex-center h-full w-[90%] md:w-[70%] p-4">
             <div className="font-Moul text-[#850E35] text-4xl md:text-5xl lg:text-6xl p-4 mb-6 overflow-hidden">
               ABOUT US
             </div>
 
-            <div className="overflow-hidden text-2xl leading-snug font-MoulPali">
+            <div className="overflow-hidden text-3xl leading-snug font-MoulPali">
               Elan and ηVision is the annual techno-cultural fest of IIT
               Hyderabad and is one of the largest fests in South India. Elan
               refers to the cultural part and ηVision cites the technological
@@ -71,12 +71,14 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <section className="w-screen h-auto ">
-
+        <section className="flex flex-col w-screen h-auto text-center">
+        <div className="font-Moul text-[#850E35] text-4xl md:text-5xl lg:text-6xl p-4 mb-6 overflow-hidden">
+              HIGHLIGHTS
+            </div>
           <ImageGrid/>
 
         </section>
-        <section className="w-screen h-screen">
+        <section className="flex flex-col justify-center w-screen h-screen">
           <div className={`after-movie flex justify-center items-center`}>
             <div className={`w-[826px] h-[450px] relative  `}>
               <div className="bg-[#850e35] absolute right-[3.87%] left-[0%] w-[96.13%] bottom-[0%] top-[8.22%] h-[91.78%]"></div>

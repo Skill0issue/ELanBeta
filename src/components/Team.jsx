@@ -69,7 +69,7 @@ import monish from '../assets/profile/monish.jpg'
 import shees from '../assets/profile/shees.jpg'
 import madhurima from '../assets/profile/madhurima.jpg'
 import saikumar from '../assets/profile/saikumar.jpg'
-import sreevas from '../assets/profile/yash.jpeg'
+import sreevas from '../assets/profile/sreevas.jpeg'
 import kamya from '../assets/profile/kamya.jpeg'
 import vaishnavi from '../assets/profile/vaishnavi.jpeg'
 
@@ -87,11 +87,11 @@ const Team = () => {
               style={{ marginLeft: '10px' }} // Adjust the margin value as needed
             />
           </Link>
-          <div className="text-3xl p-4 mb-6 text-[#850E35] font-bold flex flex-col items-center">
+          <div className="text-3xl p-4 mb-6 text-[#850E35] font-bold flex flex-col items-center justify-evenly">
             <span className="inline-block mb-8 text-4xl">
               PR, WEB & INFORMALS
             </span>
-            <div className="flex flex-row flex-wrap">
+            <div className="flex flex-row flex-wrap justify-evenly">
             <ProfileCard name={"SUMEDH"} position={"HEAD"} profilePhoto={""}/>
             <ProfileCoord name={"HIMANSHU"} domain={"WEB"} profilePhoto={himanshu}/>
             <ProfileCoord name={"ARMAAN"} domain={"WEB"} profilePhoto={armaan}/>
@@ -106,7 +106,7 @@ const Team = () => {
             <span className="inline-block mb-8 text-4xl">
               TECHY & WORKSHOPS
             </span>
-            <div className="flex flex-row flex-wrap">
+            <div className="flex flex-row flex-wrap justify-evenly">
             <ProfileCard name={"ADITYA S."} position={"HEAD"} profilePhoto={adityas}/>
             <ProfileCoord name={"VAISHNAVI"} domain={"TECHY"} profilePhoto={vaishnavi}/>
             <ProfileCoord name={"YASWANTH"} domain={"TECHY"} profilePhoto={edara}/>
@@ -119,7 +119,7 @@ const Team = () => {
             <span className="inline-block mb-8 text-4xl">
               PRODUCTION, PRONITES & SECURITY
             </span>
-            <div className="flex flex-row flex-wrap">
+            <div className="flex flex-row flex-wrap justify-evenly">
             <ProfileCard name={"GAURANG"} position={"HEAD"} profilePhoto={""}/>
             <ProfileCoord name={"TANMAY"} domain={"PRODUCTION"} profilePhoto={tanmay}/>
             <ProfileCoord name={"SHEES"} domain={"PRODUCTION"} profilePhoto={shees}/>
@@ -129,7 +129,7 @@ const Team = () => {
             <span className="inline-block mb-8 text-4xl">
               SPONSORSHIP
             </span>
-            <div className="flex flex-row flex-wrap">
+            <div className="flex flex-row flex-wrap justify-evenly">
             <ProfileCard name={"YASH"} position={"HEAD"} profilePhoto={yash}/>
             <ProfileCoord name={"ADITYA V.S."} domain={"SPONSORSHIP"} profilePhoto={adityavs}/>
             <ProfileCoord name={"SHIVANAND"} domain={"SPONSORSHIP"} profilePhoto={shivanand}/>
@@ -142,7 +142,7 @@ const Team = () => {
             <span className="inline-block mb-8 text-4xl">
               PUBLICITY
             </span>
-            <div className="flex flex-row flex-wrap">
+            <div className="flex flex-row flex-wrap justify-evenly">
             <ProfileCard name={"VIGHNESH"} position={"HEAD"} profilePhoto={vighnesh}/>
             <ProfileCard name={"ARYAN S."} position={"HEAD"} profilePhoto={aryansr}/>
             <ProfileCoord name={"UDAY"} domain={"PUBLICITY"} profilePhoto={uday}/>
@@ -157,7 +157,7 @@ const Team = () => {
             <span className="inline-block mb-8 text-4xl">
               FINANCE
             </span>
-            <div className="flex flex-row flex-wrap">
+            <div className="flex flex-row flex-wrap justify-evenly">
             <ProfileCard name={"HARTHIK"} position={"HEAD"} profilePhoto={""}/>
             <ProfileCoord name={"ARYAN B."} domain={"FINANCE"} profilePhoto={aryanb}/>
             </div>
@@ -165,7 +165,7 @@ const Team = () => {
             <span className="inline-block mb-8 text-4xl">
               HOSPITALITY, INFRA & TRANSPORT
             </span>
-            <div className="flex flex-row flex-wrap">
+            <div className="flex flex-row flex-wrap justify-evenly">
             <ProfileCard name={"MEHUL S."} position={"HEAD"} profilePhoto={mehul}/>
             <ProfileCard name={"RISHITHA"} position={"HEAD"} profilePhoto={rishitha}/>
             <ProfileCoord name={"ARYAN J."} domain={"HOSPITALITY"} profilePhoto={aryanj}/>
@@ -184,7 +184,7 @@ const Team = () => {
             <span className="inline-block mb-8 text-4xl">
               CULTI & BIGGIES, EML, LITR, SOCIAL CAUSE
             </span>
-            <div className="flex flex-row flex-wrap">
+            <div className="flex flex-row flex-wrap justify-evenly">
             <ProfileCard name={"ANUSHKA"} position={"HEAD"} profilePhoto={""}/>
             <ProfileCoord name={"DEEKSHITHA"} domain={"CULTI & BIGGIES"} profilePhoto={deekshitha}/>
             <ProfileCoord name={"VISHNU P."} domain={"CULTI & BIGGIES"} profilePhoto={vishnup}/>
@@ -200,7 +200,7 @@ const Team = () => {
             <span className="inline-block mb-8 text-4xl">
               CREATIVES & MULTIMEDIA
             </span>
-            <div className="flex flex-row flex-wrap">
+            <div className="flex flex-row flex-wrap justify-evenly">
             <ProfileCard name={"AAYUSH"} position={"HEAD"} profilePhoto={""}/>
             <ProfileCard name={"HARSH"} position={"HEAD"} profilePhoto={""}/>
             <ProfileCoord name={"SHREEVEL"} domain={"CREATIVES"} profilePhoto={shreevel}/>
