@@ -161,10 +161,10 @@ margin-top:-3.5%;
 }
 /* About Us */
 .followers>*{
-  @apply items-center w-auto h-auto p-2 text-xl text-center text-white font-Moul;
+  @apply items-center w-auto h-auto p-2 overflow-hidden text-xl text-center text-white font-Moul;
 }
 .followers>*>h1{
-  @apply text-5xl
+  @apply md:text-5xl text-3xl overflow-hidden
 }
 
 
