@@ -70,47 +70,46 @@ const Home = () => {
               immersive experience for both participants and attendees.
               <br />
               <br />
-              At its core, Elan and ηVision serve as elevated platforms for
-              students to unfurl their talents, exchange profound ideas, and
-              pioneer the uncharted realms of human potential. The festivity has
-              metamorphosed into a hallmark event, not confined merely to the
-              precincts of IIT Hyderabad but resonating across the broader
-              expanse of the region. Its significance transcends the academic
-              corridors, beckoning participants, professionals, and aficionados
-              from diverse backgrounds and disciplines.
+              Fundamentally, Elan and ηVision function as high-level forums
+              where students can showcase their skills, share thought-provoking
+              concepts, and explore the unexplored territories of human
+              potential. The celebration has evolved into a popular occasion
+              that is felt throughout the entire region and is no longer limited
+              to the grounds of IIT Hyderabad. Its importance extends beyond the
+              walls of academic institutions, drawing participants, experts, and
+              enthusiasts from various fields and backgrounds.
               <br />
               <br />
-              The cultural extravaganza, Elan, unfurls as a vibrant kaleidoscope
-              of artistic expressions. From dance performances that eloquently
-              weave narratives through graceful movements to musical renditions
-              traversing the spectrum of genres, Elan embodies the essence of
-              creativity and artistic virtuosity. The stage metamorphoses into
-              an expansive canvas, where participants paint their narratives,
-              treating the audience to a mesmerizing tapestry of cultural
-              diversity.
+              Elan, the cultural feast, opens out into a vivid tapestry of
+              artistic manifestations. Elan symbolizes innovation and artistic
+              virtuosity in everything from dance performances that elegantly
+              weave storylines via graceful movements to musical renditions that
+              span a wide range of genres. The stage transforms into a large
+              canvas on which individuals paint their stories, presenting the
+              audience with an enthralling mosaic of ethnic diversity.
               <br />
               <br />
-              Conversely, ηVision delves into the cutting edge of technology and
-              innovation. It serves as a crucible for budding engineers, tech
-              enthusiasts, and visionaries to showcase their projects,
-              inventions, and solutions to real-world challenges. Workshops,
-              hackathons, and technical exhibitions characterize this segment,
-              providing a tantalizing glimpse into the future of technological
-              marvels. What sets Elan and ηVision apart is their unparalleled
-              ability to seamlessly integrate these seemingly disparate realms
-              into a symphony of elegance and harmonious celebration.
+              On the other hand, ηVision explores the frontiers of innovation
+              and technology. It acts as a testing ground for aspiring
+              engineers, tech enthusiasts, and visionaries to present their
+              ideas, inventions, and answers to practical problems. This part is
+              characterized by workshops, hackathons, and technical exhibitions
+              that offer an enticing peek into the future of technological
+              marvels. The exceptional ability of Elan and ηVision to skillfully
+              combine these apparently unrelated worlds into a beautiful and
+              melodious celebration is what makes them stand out.
               <br />
               <br />
             </div>
           </div>
         </section>
         <section className="items-center w-screen h-auto text-center ">
-          <div className="font-Moul text-[#850E35] text-4xl md:text-5xl lg:text-6xl p-4 mb-6 overflow-hidden">
+          <div className="font-Moul text-[#850E35] text-4xl md:text-5xl lg:text-6xl p-4 overflow-hidden">
             HIGHLIGHTS
           </div>
           <ImageGrid />
         </section>
-        <section className="flex flex-col justify-center w-screen h-screen">
+        <section className="flex flex-col justify-center w-screen h-auto p-32">
           <div
             className={`after-movie flex flex-col justify-center items-center gap-6`}
           >

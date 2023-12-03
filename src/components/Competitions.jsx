@@ -64,7 +64,7 @@ const Competitions = () => {
     <>
       <div className="w-screen bg-[#FFF5E4]">
         <Navbar />
-        <section className="w-screen h-[55vh] md:h-screen md:m-0 pt-24">
+        <section className="w-screen h-[55vh] md:h-screen md:m-0 pt-24 px-8 flex flex-col justify-start">
           <Link to="/">
             <AiOutlineArrowLeft
               size={60}
@@ -73,7 +73,7 @@ const Competitions = () => {
             />
           </Link>
           <div id="competitions">
-            <div className="flex justify-center items-center">
+            <div className="flex items-center justify-center">
               <div className="armButtonGroup">
                 <div
                   onClick={() => setCulty(1)}
