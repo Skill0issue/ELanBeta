@@ -26,7 +26,7 @@ const ProfileCoord = ({ name, domain, profilePhoto, className, ...props }) => {
       </div>
 
       <img
-        className="rounded-[279.5px] absolute right-[8.3%] left-[13.84%] w-[77.85%] bg-auto bottom-[43.47%] top-[5.86%] h-[50.68%]"
+        className={`rounded-[279.5px] absolute right-[8.3%] left-[13.84%] w-[77.85%] bg-auto bottom-[43.47%] top-[5.86%] h-[50.68%] object-cover object-center ${name === 'AGAM' || name === 'AASHRITA'? 'object-top':'object-center'}`}
         src={profilePhoto}
         alt={`Profile of ${name}`}
       />

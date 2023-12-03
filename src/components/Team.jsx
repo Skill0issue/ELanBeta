@@ -175,7 +175,7 @@ const Team = () => {
             <ProfileCoord name={"ANTALENE J."} domain={"HOSPITALITY"} profilePhoto={antalene}/>
             <ProfileCoord name={"SYED M."} domain={"INFRA"} profilePhoto={syed}/>
             <ProfileCoord name={"SAKETH"} domain={"INFRA"} profilePhoto={saketh}/>
-            <ProfileCoord name={"SUMUKHA"} domain={"INFRA"} profilePhoto={sumukha}/>
+            {/* <ProfileCoord name={"SUMUKHA"} domain={"INFRA"} profilePhoto={sumukha}/> */}
             <ProfileCoord name={"ANAND"} domain={"INFRA"} profilePhoto={anand}/>
             <ProfileCoord name={"BHAVESH"} domain={"TRANSPORT"} profilePhoto={bhavesh}/>
             <ProfileCoord name={"C.V.P. REDDY"} domain={"TRANSPORT"} profilePhoto={paav}/>

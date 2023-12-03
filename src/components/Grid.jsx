@@ -56,18 +56,18 @@ const ImageGrid = () => {
     { id: 17, src: image17},
     { id: 18, src: image18},
     { id: 19, src: image19},
-    { id: 20, src: image20},
     // Add more images with different widths and heights
   ];
   return (
     <Box sx={{ width: '100%'}} className='h-full overflow-hidden w-[90%] p-4'>
-      <Masonry columns={`${largeDevice?4:2}`} spacing={2}>
+      <Masonry columns={`${largeDevice?5:2}`} spacing={2}>
         {itemData.map((item, index) => (
           <div key={index}>
             <img
               src={item.src}
               alt={item.id}
               className='rounded-xl'
+              loading='fast'
               style={{
                 display: 'flex',
                 width: '100%',

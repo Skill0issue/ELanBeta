@@ -13,7 +13,7 @@ const Events = () => {
     <>
       <div className="w-screen bg-[#FFF5E4]">
         <Navbar />
-        <section className="w-screen h-[55vh] md:h-screen md:m-0 pt-24">
+        <section className="w-screen h-[55vh] md:h-screen md:m-0 pt-24 px-8">
           <Link to="/">
             <AiOutlineArrowLeft
               size={60}
