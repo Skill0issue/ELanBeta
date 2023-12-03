@@ -72,6 +72,13 @@ import saikumar from '../assets/profile/saikumar.jpg'
 import sreevas from '../assets/profile/sreevas.jpeg'
 import kamya from '../assets/profile/kamya.jpeg'
 import vaishnavi from '../assets/profile/vaishnavi.jpeg'
+import manikanta from '../assets/profile/manikanta.jpeg'
+import harthik from '../assets/profile/harthik.jpg'
+import harsh from '../assets/profile/harsh.jpg'
+import aayush from '../assets/profile/aayush.jpg'
+import sumedh from '../assets/profile/sumedh.jpg'
+import anushka from '../assets/profile/anushka.jpg'
+import gaurang from '../assets/profile/gaurang.jpg'
 
 
 const Team = () => {
@@ -89,10 +96,17 @@ const Team = () => {
           </Link>
           <div className="text-3xl p-4 mb-6 text-[#850E35] font-bold flex flex-col items-center justify-evenly">
             <span className="inline-block mb-8 text-4xl">
+              OVERALL COORDINATOR
+            </span>
+            <div className="flex flex-row flex-wrap justify-evenly">
+            <ProfileCard name={"MANIKANTA"} position={"OC"} profilePhoto={manikanta}/>
+            </div>
+
+            <span className="inline-block mb-8 text-4xl">
               PR, WEB & INFORMALS
             </span>
             <div className="flex flex-row flex-wrap justify-evenly">
-            <ProfileCard name={"SUMEDH"} position={"HEAD"} profilePhoto={""}/>
+            <ProfileCard name={"SUMEDH"} position={"HEAD"} profilePhoto={sumedh}/>
             <ProfileCoord name={"HIMANSHU"} domain={"WEB"} profilePhoto={himanshu}/>
             <ProfileCoord name={"ARMAAN"} domain={"WEB"} profilePhoto={armaan}/>
             <ProfileCoord name={"NIHAR"} domain={"WEB"} profilePhoto={nihar}/>
@@ -120,7 +134,7 @@ const Team = () => {
               PRODUCTION, PRONITES & SECURITY
             </span>
             <div className="flex flex-row flex-wrap justify-evenly">
-            <ProfileCard name={"GAURANG"} position={"HEAD"} profilePhoto={""}/>
+            <ProfileCard name={"GAURANG"} position={"HEAD"} profilePhoto={gaurang}/>
             <ProfileCoord name={"TANMAY"} domain={"PRODUCTION"} profilePhoto={tanmay}/>
             <ProfileCoord name={"SHEES"} domain={"PRODUCTION"} profilePhoto={shees}/>
             <ProfileCoord name={"AGAM"} domain={"SECURITY"} profilePhoto={agam}/>
@@ -158,7 +172,7 @@ const Team = () => {
               FINANCE
             </span>
             <div className="flex flex-row flex-wrap justify-evenly">
-            <ProfileCard name={"HARTHIK"} position={"HEAD"} profilePhoto={""}/>
+            <ProfileCard name={"HARTHIK"} position={"HEAD"} profilePhoto={harthik}/>
             <ProfileCoord name={"ARYAN B."} domain={"FINANCE"} profilePhoto={aryanb}/>
             </div>
 
@@ -185,7 +199,7 @@ const Team = () => {
               CULTI & BIGGIES, EML, LITR, SOCIAL CAUSE
             </span>
             <div className="flex flex-row flex-wrap justify-evenly">
-            <ProfileCard name={"ANUSHKA"} position={"HEAD"} profilePhoto={""}/>
+            <ProfileCard name={"ANUSHKA"} position={"HEAD"} profilePhoto={anushka}/>
             <ProfileCoord name={"DEEKSHITHA"} domain={"CULTI & BIGGIES"} profilePhoto={deekshitha}/>
             <ProfileCoord name={"VISHNU P."} domain={"CULTI & BIGGIES"} profilePhoto={vishnup}/>
             <ProfileCoord name={"SHREYA B."} domain={"CULTI & BIGGIES"} profilePhoto={shreyab}/>
@@ -201,8 +215,8 @@ const Team = () => {
               CREATIVES & MULTIMEDIA
             </span>
             <div className="flex flex-row flex-wrap justify-evenly">
-            <ProfileCard name={"AAYUSH"} position={"HEAD"} profilePhoto={""}/>
-            <ProfileCard name={"HARSH"} position={"HEAD"} profilePhoto={""}/>
+            <ProfileCard name={"AAYUSH"} position={"HEAD"} profilePhoto={aayush}/>
+            <ProfileCard name={"HARSH"} position={"HEAD"} profilePhoto={harsh}/>
             <ProfileCoord name={"SHREEVEL"} domain={"CREATIVES"} profilePhoto={shreevel}/>
             <ProfileCoord name={"SHREEYA K."} domain={"CREATIVES"} profilePhoto={shreeyak}/>
             <ProfileCoord name={"ANKITA"} domain={"CREATIVES"} profilePhoto={ankita}/>
