@@ -59,46 +59,48 @@ const Home = () => {
             </div>
 
             <div className="overflow-hidden text-3xl leading-snug font-MoulPali">
-              Elan and ηVision, the annual techno-cultural fest of the Indian
+              Elan and ηVision, the annual techno-cultural gala of the Indian
               Institute of Technology (IIT) Hyderabad, stand as vibrant pillars
-              of creativity, innovation, and community engagement. This grand
-              celebration, renowned as one of the largest fests in South India,
-              seamlessly blends cultural richness with technological prowess,
-              bringing together a diverse array of talents and ideas. Elan,
-              symbolizing the cultural facet, and ηVision, representing the
-              technological dimension, collectively create an immersive
-              experience for participants and attendees alike.
+              that epitomize creativity, innovation, and community engagement.
+              This grand celebration, widely recognized as one of the largest
+              festivals in South India, adeptly merges cultural richness with
+              technological prowess, uniting a diverse array of talents and
+              ideas. Elan, representing the cultural facet, and ηVision,
+              embodying the technological dimension, collaboratively craft an
+              immersive experience for both participants and attendees.
               <br />
               <br />
-              At its core, Elan and ηVision serve as a platform for students to
-              showcase their talents, exchange ideas, and push the boundaries of
-              what is possible. The fest has become a hallmark event, not only
-              for the IIT Hyderabad community but also for the broader region.
-              Its significance extends beyond the confines of the institute,
-              attracting participants, professionals, and enthusiasts from
-              various backgrounds and disciplines. 
-              <br />
-              <br /> 
-              The cultural segment, Elan, unfolds as a kaleidoscope of
-              artistic expressions. From dance performances that narrate stories
-              through graceful movements to musical renditions that resonate
-              with diverse genres, Elan embodies the spirit of creativity and
-              artistic excellence. The stage becomes a canvas for participants
-              to paint their narratives, and the audience is treated to a
-              tapestry of cultural diversity. 
+              At its core, Elan and ηVision serve as elevated platforms for
+              students to unfurl their talents, exchange profound ideas, and
+              pioneer the uncharted realms of human potential. The festivity has
+              metamorphosed into a hallmark event, not confined merely to the
+              precincts of IIT Hyderabad but resonating across the broader
+              expanse of the region. Its significance transcends the academic
+              corridors, beckoning participants, professionals, and aficionados
+              from diverse backgrounds and disciplines.
               <br />
               <br />
-              On the other hand, ηVision delves
-              into the cutting edge of technology and innovation. It serves as a
-              melting pot for budding engineers, tech enthusiasts, and
-              visionaries to showcase their projects, inventions, and solutions
-              to real-world challenges. Workshops, hackathons, and technical
-              exhibitions characterize this segment, providing a glimpse into
-              the future of technological advancements. What sets Elan and
-              ηVision apart is their ability to seamlessly integrate these
-              seemingly disparate realms into a cohesive and harmonious
-              celebration.
-              <br /><br />
+              The cultural extravaganza, Elan, unfurls as a vibrant kaleidoscope
+              of artistic expressions. From dance performances that eloquently
+              weave narratives through graceful movements to musical renditions
+              traversing the spectrum of genres, Elan embodies the essence of
+              creativity and artistic virtuosity. The stage metamorphoses into
+              an expansive canvas, where participants paint their narratives,
+              treating the audience to a mesmerizing tapestry of cultural
+              diversity.
+              <br />
+              <br />
+              Conversely, ηVision delves into the cutting edge of technology and
+              innovation. It serves as a crucible for budding engineers, tech
+              enthusiasts, and visionaries to showcase their projects,
+              inventions, and solutions to real-world challenges. Workshops,
+              hackathons, and technical exhibitions characterize this segment,
+              providing a tantalizing glimpse into the future of technological
+              marvels. What sets Elan and ηVision apart is their unparalleled
+              ability to seamlessly integrate these seemingly disparate realms
+              into a symphony of elegance and harmonious celebration.
+              <br />
+              <br />
             </div>
           </div>
         </section>
