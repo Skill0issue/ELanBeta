@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState,useEffect} from 'react';
 import Box from '@mui/material/Box';
 import Masonry from '@mui/lab/Masonry';
 
@@ -25,43 +25,51 @@ import image19 from "../assets/archive/IMG_7497.jpg";
 import image20 from "../assets/archive/IMG_7007.jpg";
 
 const ImageGrid = () => {
+  const [largeDevice,setLargeDevice] = useState(true);
+  useEffect(() => {
+    const handleResize = () => {
+      setLargeDevice(window.innerWidth > 950);
+    };
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
   const itemData  = [
-    { id: 1, src: image1, width: 1, height: 1 },
-    { id: 3, src: image3, width: 1, height: 2 },  
-    { id: 9, src: image9, width: 1, height: 1 },
-    { id: 11, src: image11, width: 1, height: 2 },
-    { id: 8, src: image8, width: 2, height: 2 },
-    { id: 2, src: image2, width: 2, height: 1 },
-    { id: 4, src: image4, width: 2, height: 2 },
-    { id: 5, src: image5, width: 1, height: 1 },
-    { id: 10, src: image10, width: 2, height: 1 },
-    { id: 7, src: image7, width: 1, height: 2 },
-    { id: 6, src: image6, width: 2, height: 1 },
-    { id: 12, src: image12, width: 2, height: 2 },
-    { id: 13, src: image13, width: 1, height: 1 },
-    { id: 14, src: image14, width: 2, height: 1 },
-    { id: 15, src: image15, width: 1, height: 2 },
-    { id: 16, src: image16, width: 2, height: 2 },
-    { id: 17, src: image17, width: 1, height: 1 },
-    { id: 18, src: image18, width: 2, height: 1 },
-    { id: 19, src: image19, width: 1, height: 2 },
-    { id: 20, src: image20, width: 2, height: 2 },
+    { id: 1, src: image1},
+    { id: 3, src: image3},  
+    { id: 9, src: image9},
+    { id: 11, src: image11},
+    { id: 8, src: image8},
+    { id: 2, src: image2},
+    { id: 4, src: image4},
+    { id: 5, src: image5},
+    { id: 10, src: image10},
+    { id: 7, src: image7},
+    { id: 6, src: image6},
+    { id: 12, src: image12},
+    { id: 13, src: image13},
+    { id: 14, src: image14},
+    { id: 15, src: image15},
+    { id: 16, src: image16},
+    { id: 17, src: image17},
+    { id: 18, src: image18},
+    { id: 19, src: image19},
+    { id: 20, src: image20},
     // Add more images with different widths and heights
   ];
   return (
-    <Box sx={{ width: '100%', minHeight: 829 }} className='h-full overflow-hidden w-[90%] p-4'>
-      <Masonry columns={3} spacing={2}>
+    <Box sx={{ width: '100%'}} className='h-full overflow-hidden w-[90%] p-4'>
+      <Masonry columns={`${largeDevice?4:2}`} spacing={2}>
         {itemData.map((item, index) => (
           <div key={index}>
             <img
               src={item.src}
               alt={item.id}
-              loading="lazy"
               className='rounded-xl'
               style={{
-                borderBottomLeftRadius: 4,
-                borderBottomRightRadius: 4,
-                display: 'block',
+                display: 'flex',
                 width: '100%',
               }}
             />

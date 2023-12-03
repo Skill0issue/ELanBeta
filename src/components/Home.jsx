@@ -105,7 +105,7 @@ const Home = () => {
           </div>
         </section>
         <section className="items-center w-screen h-auto text-center ">
-          <div className="font-Moul text-[#850E35] text-4xl md:text-5xl lg:text-6xl p-4 mb-6 overflow-hidden">
+          <div className="font-Moul text-[#850E35] text-4xl md:text-5xl lg:text-6xl p-4 overflow-hidden">
             HIGHLIGHTS
           </div>
           <ImageGrid />
