@@ -9,7 +9,7 @@ const Workshops = () => {
   return (
     <>
       <div className="w-screen bg-[#FFF5E4]">
-        <Navbar />
+        <Navbar home={false}/>
         <section className="w-screen overflow-clip md:h-[60rem] md:m-0 pt-24">
           <Link to="/">
             <AiOutlineArrowLeft

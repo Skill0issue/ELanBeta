@@ -77,7 +77,7 @@ const Home = () => {
   return (
     <>
       <div className="w-screen bg-[#FFF5E4]">
-        <Navbar />
+        <Navbar home={true}/>
         <section className="w-screen h-[55vh] md:h-screen md:m-0 pt-24 overflow-hidden">
           <div className="bg-[inherit] w-screen h-[90%] flex flex-col items-center justify-center">
             <div className={`bg-[url('/assets/elan.png')] logo-image`}></div>
@@ -205,10 +205,10 @@ const Home = () => {
           <div
             className={`after-movie flex flex-col justify-center items-center gap-6`}
           >
-            <h1 className="font-Moul text-[#850E35] text-4xl md:text-5xl lg:text-6xl p-4 mb-6 overflow-hidden">
+            <h1 className="font-Moul text-[#850E35] text-4xl md:text-5xl lg:text-6xl md:p-4 sm:p-1 mb-6 overflow-hidden">
               AFTER MOVIE
             </h1>
-            <div className={`w-[826px] h-[450px] relative  `}>
+            <div className={`aftermovie relative`}>
               <div className="bg-[#850e35] absolute right-[3.87%] left-[0%] w-[96.13%] bottom-[0%] top-[8.22%] h-[91.78%]"></div>
               <div className="bg-[#f68989] absolute right-[0%] left-[3.87%] w-[96.13%] bottom-[8.22%] top-[0%] h-[91.78%]"></div>
               <iframe

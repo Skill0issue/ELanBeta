@@ -6,7 +6,7 @@ import {
   AiFillLinkedin,
 } from "react-icons/ai";
 
-const Navbar = () => {
+const Navbar = ({home, ...props}) => {
   const [displayLinks, setDisplayLinks] = useState(false);
   const [isOpen, setIsOpen] = useState(true);
   const [logoVisible, setLogoVisible] = useState(false);
@@ -35,7 +35,7 @@ const Navbar = () => {
   useEffect(() => {
     const handleLogo = () => {
       if (window.scrollY < window.innerHeight / 3) {
-        setLogoVisible(false);
+        setLogoVisible(!home);
       } else {
         setLogoVisible(true);
       }
@@ -44,7 +44,7 @@ const Navbar = () => {
     return () => {
       window.removeEventListener('scroll', handleLogo);
     }
-  }, []);
+  }, [window.scrollY]);
 
   return (
     <>
