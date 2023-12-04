@@ -119,7 +119,7 @@ const Home = () => {
               ABOUT US
             </div>
 
-            <div className="overflow-hidden text-3xl leading-snug font-MoulPali">
+            <div className="overflow-hidden text-xl leading-snug md:text-3xl font-MoulPali">
               Elan and ηVision, the annual techno-cultural gala of the Indian
               Institute of Technology (IIT) Hyderabad, stand as vibrant pillars
               that epitomize creativity, innovation, and community engagement.
