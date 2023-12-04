@@ -145,6 +145,7 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+
 .border-register{
 display: flex;
 width: 503px;
@@ -158,6 +159,12 @@ border-radius: 70px;
 border: 7px solid #EE6983;
 background: #FFF5E4;
 margin-top:-3.5%;
+}
+.border-register:hover{
+background: #EE6983;
+.link-register{
+  color: #FFF5E4;
+}
 }
 /* About Us */
 .followers>*{
@@ -239,6 +246,28 @@ margin-top:-3.5%;
     margin-bottom:-40%;
   }
 }
+
+/* For the Aftermovie Box */
+@media screen and (min-width: 640px) {
+  .aftermovie {
+    width: 41.62rem;
+    height: 28.12rem;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width:640px) {
+  .aftermovie {
+    width: 21rem;
+    height: 14rem;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .aftermovie {
+    display: none;
+  }
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
