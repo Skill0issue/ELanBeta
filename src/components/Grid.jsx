@@ -67,7 +67,7 @@ const ImageGrid = () => {
               src={item.src}
               alt={item.id}
               className='rounded-xl'
-              loading='fast'
+              loading='lazy'
               style={{
                 display: 'flex',
                 width: '100%',
