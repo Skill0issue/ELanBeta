@@ -4,8 +4,69 @@ import { Link } from "react-router-dom";
 import { AiOutlineArrowDown } from "react-icons/ai";
 import "swiper/css/bundle";
 import ImageGrid from "./Grid";
+import Box from "@mui/material/Box";
+import Masonry from "@mui/lab/Masonry";
+import image2 from '../assets/Sponsors/abhibus.png';
+import image3 from '../assets/Sponsors/Barbeque_Nation_New_Logo.jpg';
+import image4 from '../assets/Sponsors/BlogAdda.png';
+import image5 from '../assets/Sponsors/Centro.png';
+import image6 from '../assets/Sponsors/DRVadiya.png';
+import image7 from '../assets/Sponsors/EaseMyTrip.png';
+import image8 from '../assets/Sponsors/Eenadu.png';
+import image9 from '../assets/Sponsors/ETV.png';
+import image10 from '../assets/Sponsors/Fashion Gerald.jpg';
+import image11 from '../assets/Sponsors/GrabOn.png';
+import image12 from '../assets/Sponsors/Groovenexus Logo (1).png';
+import image13 from '../assets/Sponsors/Interview buddy.png';
+import image14 from '../assets/Sponsors/KnowAfest.png';
+import image15 from '../assets/Sponsors/LIC.png';
+import image16 from '../assets/Sponsors/MERHYD.jpg';
+import image17 from '../assets/Sponsors/museeMusical.png';
+import image18 from '../assets/Sponsors/Notivebard Logo.png';
+import image19 from '../assets/Sponsors/NTPC.png';
+import image20 from '../assets/Sponsors/OLD TOWN SODA-01.jpg';
+import image21 from '../assets/Sponsors/PenguinBooks.jpg';
+import image22 from '../assets/Sponsors/plum_body_lovin.png';
+import image23 from '../assets/Sponsors/RageCoffee.png';
+import image24 from '../assets/Sponsors/ScaryHouse.jpg';
+import image25 from '../assets/Sponsors/Sea Lord Ent.png';
+import image26 from '../assets/Sponsors/Sirona.jpg';
+import image27 from '../assets/Sponsors/Telangana-Today-News-1.jpg';
+import image28 from '../assets/Sponsors/wow_momo.jpeg';
+import image29 from '../assets/Sponsors/Youth Incorportated.jpg';
+
 
 const Home = () => {
+  const sponsors = [
+    { id: 2, src: image2 },
+    { id: 3, src: image3 },
+    { id: 4, src: image4 },
+    { id: 5, src: image5 },
+    { id: 6, src: image6 },
+    { id: 7, src: image7 },
+    { id: 8, src: image8 },
+    { id: 9, src: image9 },
+    { id: 10, src: image10 },
+    { id: 11, src: image11 },
+    { id: 12, src: image12 },
+    { id: 13, src: image13 },
+    { id: 14, src: image14 },
+    { id: 15, src: image15 },
+    { id: 16, src: image16 },
+    { id: 17, src: image17 },
+    { id: 18, src: image18 },
+    { id: 19, src: image19 },
+    { id: 20, src: image20 },
+    { id: 21, src: image21 },
+    { id: 22, src: image22 },
+    { id: 23, src: image23 },
+    { id: 24, src: image24 },
+    { id: 25, src: image25 },
+    { id: 26, src: image26 },
+    { id: 27, src: image27 },
+    { id: 28, src: image28 },
+    { id: 29, src: image29 },
+  ];
   const handleScrollDown = () => {
     //scroll the page by 100vh
     window.scrollTo({
@@ -23,8 +84,8 @@ const Home = () => {
             <div className="heading-border">
               <span className="heading-1">Elan & ηVision</span>
             </div>
-            <Link to="/Workshops" className="border-register">
-              <span className="link-register">REGISTER FOR WORKSHOPS</span>
+            <Link to="/Workshops" className="border-register hover:bg-[#EE6983] group">
+              <span className="link-register group-hover:text-white">REGISTER FOR WORKSHOPS</span>
             </Link>
           </div>
           <div id="scroll-down" className="flex justify-center h-auto p-4">
@@ -109,7 +170,38 @@ const Home = () => {
           </div>
           <ImageGrid />
         </section>
-        <section className="flex flex-col justify-center w-screen h-auto p-32">
+        <section className="flex flex-col justify-center h-auto p-4 md:p-32 items-centerreen item">
+          <div className="flex flex-col py-8">
+            <h1 className="font-Moul text-[#850E35] text-4xl md:text-5xl lg:text-6xl p-4 mb-6 mx-auto self-center overflow-hidden">
+              SPONSORS
+            </h1>
+            <Box
+              sx={{ width: "100%" }}
+              className="h-full overflow-hidden md:w-[80vw] w-[90%] md:p-8 mx-auto justify-center"
+            >
+              <Masonry
+                columns={7}
+                rows={4}
+                spacing={2}
+                className="justify-center items-centeruto item"
+              >
+                {sponsors.map((item, index) => (
+                  <div key={index}>
+                    <img
+                      src={item.src}
+                      alt={item.id}
+                      className="justify-center object-contain h-16 rounded-xl aspect-square"
+                      loading="lazy"
+                      style={{
+                        display: "flex",
+                        width: "100%",
+                      }}
+                    />
+                  </div>
+                ))}
+              </Masonry>
+            </Box>
+          </div>
           <div
             className={`after-movie flex flex-col justify-center items-center gap-6`}
           >
