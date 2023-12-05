@@ -180,7 +180,7 @@ const Competitions = () => {
       <div className="w-screen bg-[#FFF5E4]">
         <Navbar />
         <section className="w-screen h-[55vh] md:h-screen md:m-0 pt-24 px-8 flex flex-col justify-start">
-          <Link to="/">
+          <Link to="/" className='h-[9rem] overflow-hidden'>
             <AiOutlineArrowLeft
               size={60}
               color={"#874356"}
