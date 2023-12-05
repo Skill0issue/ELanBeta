@@ -118,20 +118,61 @@ const Competitions = () => {
   ]
   const techyCompetitions = [
     {
-      title: "Glitz & Glamour",
-      description: "Glitz & Glamour is a thrilling spectacle where aspiring models and designers come together to showcase their talents and creativity. It's an exhilarating fusion of glamour, artistry, and self-expression that captivates both the participants and the audience, celebrating fashion and serving as a platform for talent to shine."
+      title: "MACHINA DOCTRINA",
+      description: "If making machines learn is your forté, this is the perfect event for you. Test and hone your skills in ML and Data Analytics by participating in Machina doctrinas, one of the coolest events in the fest!"
     },
     {
-      title: "Glitz & Glamour",
-      description: "Glitz & Glamour is a thrilling spectacle where aspiring models and designers come together to showcase their talents and creativity. It's an exhilarating fusion of glamour, artistry, and self-expression that captivates both the participants and the audience, celebrating fashion and serving as a platform for talent to shine."
+      title: "PROQUEST",
+      description: "Experience the Competitive Programming Competition , for all participants of all levels of expertise. This event ensures that even an absolute beginner is able to solve something."
     },
     {
-      title: "Glitz & Glamour",
-      description: "Glitz & Glamour is a thrilling spectacle where aspiring models and designers come together to showcase their talents and creativity. It's an exhilarating fusion of glamour, artistry, and self-expression that captivates both the participants and the audience, celebrating fashion and serving as a platform for talent to shine."
+      title: "Enigma",
+      description: "Find the mysterious secret techniques to decrypt the given texts/messages. Clear all the levels in the allotted time to become the ultimate cryptacker. It's a pen and paper event. Each team has to decode a series of encrypted messages."
     },
     {
-      title: "Glitz & Glamour",
-      description: "Glitz & Glamour is a thrilling spectacle where aspiring models and designers come together to showcase their talents and creativity. It's an exhilarating fusion of glamour, artistry, and self-expression that captivates both the participants and the audience, celebrating fashion and serving as a platform for talent to shine."
+      title: "APP DEVELOPMENT",
+      description: "This competition challenges participants to create innovative applications on mobile platforms - Android, iOS and Windows Phone. Grab the chance to Influence with creativity and innovation by designing a peculiar app."
+    },
+    {
+      title: "WEB DEVELOPMENT",
+      description: "An event that empowers the creative and technically proficient future Web professionals.Participants can Innovate and Inspire by designing a creative Website in this competition."
+    },
+    {
+      title: "QUADCOPTER CHALLENGE",
+      description: `Drones are the objects that the world is looking up to, literally!
+      Design a drone and compete to see if it has got the moves to dance past all the obstacles.`
+    },
+    {
+      title: "CIRCUIT BUILDING",
+      description: `The aim of this competition is to judge the problem solving skills and understanding of the basic circuit designing concepts of the students. Each team has to build a circuit as per the requirement keeping in mind the efficiency factor.`
+    },
+    {
+      title: "ROBO WARS",
+      description: `The main challenge of the competition is to immobilize the other bot within a stipulated time under certain constraints. A minacious cunning mind that could design a bot under given constraints in a way that maximizes the opponent's damage and minimizes its own would emerge as the champion.`
+    },
+    {
+      title: "CAD PRO",
+      description: `Contrive a way to outsmart your opponents in designing a CAD model.An on-the-spot designing round to show off your expertise in designing.`
+    },
+    {
+      title: "HACKATHON",
+      description: ` A unique hackathon on emerging digital technologies to engage with tech enthusiasts. It offers an array of challenges across multiple levels.`
+    },
+    {
+      title: "GAME JAM",
+      description: `Developing a game is the new meta. Game Jam is an event that enables one to create a game from scratch and within the time barrier.`
+    },
+    {
+      title: "PAPER PRESENTATION",
+      description: `In this event, contestants prepare a presentation that showcases and effectively presents new ideas related to any field or even an entire business plan. The main idea of the event is to analyze a topic and think with a new bent.`
+    },
+    {
+      title: "DEEPN",
+      description: `If technology had a face now, it would be ‘AI’. An on-spot challenge that would test your understanding of Deep Learning.`
+    },
+    {
+      title: "SHARK TANK",
+      description: `Bring out your inner entrepreneur with our Shark Tank event. Pitch in your start-up ideas and convince the judges to invest their virtual money.`
     },
   ]
   return (
