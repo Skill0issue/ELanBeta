@@ -5,6 +5,16 @@ import { AiOutlineArrowLeft } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
 // import CompetitionsBox from './subcomponents/competitionsBox/CompetitionsBox'
 import './Events.scss'
+//Images imports
+import tech1 from "../assets/events/tech1.jpg"
+import tech2 from "../assets/events/tech2.jpg"
+import tech3 from "../assets/events/tech3.jpg"
+import culti1 from "../assets/events/culti1.jpg"
+import culti2 from "../assets/events/culti2.jpg"
+import culti3 from "../assets/events/culti3.jpg"
+import pro1 from "../assets/events/pro1.jpg"
+import pro2 from "../assets/events/pro2.jpg"
+import pro3 from "../assets/events/pro3.jpg"
 
 const Events = () => {
   const [display, setDisplay] = useState('p');
@@ -47,11 +57,11 @@ const Events = () => {
               </div>
             </div>
             <div className="text-3xl">
-              <h1>EVENTS</h1>
+              {/* <h1>EVENTS</h1> */}
             </div>
             {display == "p" && (
               <div className='data'>
-                <h1>Pronites</h1>
+                <div className='font-Moul text-[#850E35] font-light text-4xl mt-3'>PRONITES</div>
                 <p>
                   Aside from the competitions, our festival consistently
                   delights attendees with entertaining and thrilling
@@ -69,11 +79,16 @@ const Events = () => {
                     <li>Kailash Kher</li>
                   </ul>
                 </p>
+                <div className='flex flex-row flex-wrap gap-2 justify-evenly mb-16 mt-16 px-4 sm:px-0'>
+                  <img src={pro1} className='aftermovie md:w-[25rem] md:h-[15rem] sm:w-[25rem] sm:h-[15rem]'/>
+                  <img src={pro2} className='aftermovie md:w-[25rem] md:h-[15rem] sm:w-[25rem] sm:h-[15rem]'/>
+                  <img src={pro3} className='md:w-[16rem] md:h-[20rem] sm:w-[14rem] sm:h-[18rem]'/>
+                </div>
               </div>
             )}
             {display == "c" && (
               <div className='data'>
-                <h1>Culty</h1>
+                <div className='font-Moul text-[#850E35] font-light text-4xl mt-3'>CULTI</div>
                 <p>
                   Dedicated to captivating the audience, CULTI vows to mesmerize
                   with a collection of extraordinary performances, offering a
@@ -81,11 +96,16 @@ const Events = () => {
                   commitment includes coordinating diverse cultural events and
                   competitions, allowing participants to showcase their talents.
                 </p>
+                <div className='flex flex-row flex-wrap gap-2 justify-evenly mb-16 mt-16 px-4 sm:px-0'>
+                  <img src={culti1} className='aftermovie md:w-[25rem] md:h-[15rem] sm:w-[25rem] sm:h-[15rem]'/>
+                  <img src={culti2} className='aftermovie md:w-[25rem] md:h-[15rem] sm:w-[25rem] sm:h-[15rem]'/>
+                  <img src={culti3} className='aftermovie md:w-[25rem] md:h-[15rem] sm:w-[25rem] sm:h-[15rem]'/>
+                </div>
               </div>
             )}
             {display == "t" && (
               <div className='data'>
-                <h1>Techy</h1>
+                <div className='font-Moul text-[#850E35] font-light text-4xl mt-3'>TECHY</div>
                 <p>
                   At the heart of our narratives, technology becomes the
                   campfire where time stands still, and contestants skillfully
@@ -93,6 +113,11 @@ const Events = () => {
                   Hackathons or creating intricate CAD models, we offer a
                   comprehensive range of experiences!
                 </p>
+                <div className='flex flex-row flex-wrap gap-2 justify-evenly mb-16 mt-16 px-4 sm:px-0'>
+                  <img src={tech1} className='aftermovie md:w-[25rem] md:h-[15rem] sm:w-[25rem] sm:h-[15rem]'/>
+                  <img src={tech2} className='aftermovie md:w-[25rem] md:h-[15rem] sm:w-[25rem] sm:h-[15rem]'/>
+                  <img src={tech3} className='aftermovie md:w-[25rem] md:h-[15rem] sm:w-[25rem] sm:h-[15rem]'/>
+                </div>
               </div>
             )}
           </div>

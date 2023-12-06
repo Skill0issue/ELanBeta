@@ -37,13 +37,20 @@
 
       @media (max-width : 800px) {
         .pronites{
-          padding-inline: 1rem;
+          padding-inline: 0rem;
+          padding-left: 0.1rem;
+          padding-right: 0.1rem;
         }
         .culti{
-          padding-inline: 1rem;
+          padding-inline: 0rem;
+          padding-left: 0.1rem;
+          padding-right: 0.1rem;
         }
         .techy{
-          padding-inline: 1rem;
+          padding-inline: 0rem;
+          padding-left: 0.1rem;
+          padding-right: 0.1rem;
+          
         }
       }
   
@@ -53,6 +60,9 @@
         padding-block: 1.2rem;
       }
     }
+  }
+  @media screen and (max-width: 425px) {
+    padding: 0;
   }
   .data{
     h1{
