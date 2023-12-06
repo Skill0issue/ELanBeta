@@ -27,8 +27,8 @@ const Events = () => {
           <Link to="/">
             <AiOutlineArrowLeft
               size={60}
-              color={"#874356"}
-              style={{ marginLeft: "10px" }} // Adjust the margin value as needed
+              color={'#874356'}
+              className="w-6 h-6 md:w-14 md:h-12 ml-2 sm:ml-1 md:ml-8 lg:ml-4"
             />
           </Link>
           <div id="events">
@@ -80,9 +80,9 @@ const Events = () => {
                   </ul>
                 </p>
                 <div className='flex flex-row flex-wrap gap-2 justify-evenly mb-16 mt-16 px-4 sm:px-0'>
-                  <img src={pro1} className='aftermovie md:w-[25rem] md:h-[15rem] sm:w-[25rem] sm:h-[15rem]'/>
-                  <img src={pro2} className='aftermovie md:w-[25rem] md:h-[15rem] sm:w-[25rem] sm:h-[15rem]'/>
-                  <img src={pro3} className='md:w-[16rem] md:h-[20rem] sm:w-[14rem] sm:h-[18rem]'/>
+                  <img src={pro1} className='aftermovie md:w-[25rem] md:h-[15rem] sm:w-[25rem] sm:h-[15rem]' />
+                  <img src={pro2} className='aftermovie md:w-[25rem] md:h-[15rem] sm:w-[25rem] sm:h-[15rem]' />
+                  <img src={pro3} className='md:w-[16rem] md:h-[20rem] sm:w-[14rem] sm:h-[18rem]' />
                 </div>
               </div>
             )}
@@ -97,9 +97,9 @@ const Events = () => {
                   competitions, allowing participants to showcase their talents.
                 </p>
                 <div className='flex flex-row flex-wrap gap-2 justify-evenly mb-16 mt-16 px-4 sm:px-0'>
-                  <img src={culti1} className='aftermovie md:w-[25rem] md:h-[15rem] sm:w-[25rem] sm:h-[15rem]'/>
-                  <img src={culti2} className='aftermovie md:w-[25rem] md:h-[15rem] sm:w-[25rem] sm:h-[15rem]'/>
-                  <img src={culti3} className='aftermovie md:w-[25rem] md:h-[15rem] sm:w-[25rem] sm:h-[15rem]'/>
+                  <img src={culti1} className='aftermovie md:w-[25rem] md:h-[15rem] sm:w-[25rem] sm:h-[15rem]' />
+                  <img src={culti2} className='aftermovie md:w-[25rem] md:h-[15rem] sm:w-[25rem] sm:h-[15rem]' />
+                  <img src={culti3} className='aftermovie md:w-[25rem] md:h-[15rem] sm:w-[25rem] sm:h-[15rem]' />
                 </div>
               </div>
             )}
@@ -114,9 +114,9 @@ const Events = () => {
                   comprehensive range of experiences!
                 </p>
                 <div className='flex flex-row flex-wrap gap-2 justify-evenly mb-16 mt-16 px-4 sm:px-0'>
-                  <img src={tech1} className='aftermovie md:w-[25rem] md:h-[15rem] sm:w-[25rem] sm:h-[15rem]'/>
-                  <img src={tech2} className='aftermovie md:w-[25rem] md:h-[15rem] sm:w-[25rem] sm:h-[15rem]'/>
-                  <img src={tech3} className='aftermovie md:w-[25rem] md:h-[15rem] sm:w-[25rem] sm:h-[15rem]'/>
+                  <img src={tech1} className='aftermovie md:w-[25rem] md:h-[15rem] sm:w-[25rem] sm:h-[15rem]' />
+                  <img src={tech2} className='aftermovie md:w-[25rem] md:h-[15rem] sm:w-[25rem] sm:h-[15rem]' />
+                  <img src={tech3} className='aftermovie md:w-[25rem] md:h-[15rem] sm:w-[25rem] sm:h-[15rem]' />
                 </div>
               </div>
             )}
