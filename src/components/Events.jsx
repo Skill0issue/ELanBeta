@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer'
 import { AiOutlineArrowLeft } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
-import CompetitionsBox from './subcomponents/competitionsBox/CompetitionsBox'
+// import CompetitionsBox from './subcomponents/competitionsBox/CompetitionsBox'
 import './Events.scss'
 
 const Events = () => {
