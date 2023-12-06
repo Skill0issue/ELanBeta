@@ -171,6 +171,7 @@ const Competitions = () => {
     },
     {
       title: "CIRCUIT BUILDING",
+      src: "/src/assets/competitions/circuit_building.PNG",
       description: `The aim of this competition is to judge the problem solving skills and understanding of the basic circuit designing concepts of the students. Each team has to build a circuit as per the requirement keeping in mind the efficiency factor.`,
     },
     {
@@ -185,10 +186,12 @@ const Competitions = () => {
     },
     {
       title: "HACKATHON",
+      src: "/src/assets/competitions/hackathon.png",
       description: ` A unique hackathon on emerging digital technologies to engage with tech enthusiasts. It offers an array of challenges across multiple levels.`,
     },
     {
       title: "GAME JAM",
+      src: "/src/assets/competitions/game_jam.png",
       description: `Developing a game is the new meta. Game Jam is an event that enables one to create a game from scratch and within the time barrier.`,
     },
     {
