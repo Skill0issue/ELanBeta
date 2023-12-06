@@ -177,10 +177,10 @@ const Competitions = () => {
   ]
   return (
     <>
-      <div className="w-screen bg-[#FFF5E4]">
+      <div className="w-screen min-h-screen h-auto bg-[#FFF5E4]">
         <Navbar />
-        <section className="w-screen h-[55vh] md:h-screen md:m-0 pt-24 px-8 flex flex-col justify-start">
-          <Link to="/" className='h-[9rem] overflow-hidden'>
+        <section className="flex flex-col justify-start w-screen h-auto px-8 pt-24 md:m-0">
+          <Link to="/">
             <AiOutlineArrowLeft
               size={60}
               color={"#874356"}
@@ -220,8 +220,8 @@ const Competitions = () => {
             </div>
           </div>
         </section>
-        <Footer />
       </div>
+      <Footer />
     </>
   );
 }
