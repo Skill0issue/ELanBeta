@@ -17,79 +17,13 @@ const SocialCause = () => {
             />
           </Link>
           <h1 className='font-Moul text-[#850E35] text-4xl md:text-5xl lg:text-6xl p-8 mb-6 md:ml-4 overflow-hidden'>
-            IKSHANA - LOVE ANIMALS
+            IKSHANA-LOVE ANIMALS
           </h1>
-          <div
-            id="carouselExampleIndicators"
-            className="mx-auto carousel slide sm:max-w-lg"
-            data-ride="carousel"
-          >
-            <ol className="carousel-indicators">
-              <li
-                data-target="#carouselExampleIndicators"
-                data-slide-to="0"
-                className="active"
-              ></li>
-              <li
-                data-target="#carouselExampleIndicators"
-                data-slide-to="1"
-              ></li>
-            </ol>
-            <div className="carousel-inner">
-              <div className="carousel-item active">
-                <img
-                  className="d-block w-100"
-                  src="/src/assets/socialCause/feedDog.jpg"
-                  alt="First slide"
-                />
-              </div>
-              <div className="carousel-item">
-                <img
-                  className="d-block w-100"
-                  src="/src/assets/socialCause/feedDog.jpg"
-                  alt="Second slide"
-                />
-              </div>
-            </div>
-            <a
-              className="carousel-control-prev"
-              href="#carouselExampleIndicators"
-              role="button"
-              data-slide="prev"
-            >
-              <span
-                className="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span className="sr-only">Previous</span>
-            </a>
-            <a
-              className="carousel-control-next"
-              href="#carouselExampleIndicators"
-              role="button"
-              data-slide="next"
-            >
-              <span
-                className="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span className="sr-only">Next</span>
-            </a>
-          </div>
-          <div className="mx-4 mt-8 mb-8 overflow-hidden text-lg leading-snug md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-MoulPali md:mx-8 lg:mx-12 xl:mx-16 2xl:mx-20 md:px-8 lg:px-12 xl:px-16 2xl:px-20">
-            Perusing articles on environmental issues, it becomes evident that
-            animals often suffer due to human activities, despite their rightful
-            place on Earth. This shared planet gives every species an inherent
-            right to its resources. Acknowledging this, “Elan & ηVision”
-            introduces the initiative &quot;IKSHANA - LOVE ANIMALS&quot; this year. Our
-            aim is to raise awareness about the challenges animals face and
-            emphasize their importance in the ecosystem. These creatures, many
-            of whom are vulnerable due to various factors, warrant our attention
-            and care. Through our initiative, we hope to create a platform where
-            discussions about animal welfare take precedence. From conservation
-            efforts to promoting kindness towards animals, we aspire to make a
-            positive change. Let&apos;s work together to ensure a harmonious
-            coexistence with all Earth&apos;s inhabitants.
+          <img src="/src/assets/socialCause/feedDog.jpg" alt="IKSHANA IMG" className='w-[40vw] h-auto aspect-video object-cover rounded-xl mx-auto' />
+          <div className="p-4 mx-4 mt-8 mb-8 overflow-hidden text-lg leading-snug md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-MoulPali md:mx-8 lg:mx-12 xl:mx-16 2xl:mx-20 md:px-8 lg:px-12 xl:px-16 2xl:px-20">
+            Perusing articles on environmental issues, it becomes evident that animals often suffer due to human activities, despite their rightful place on Earth. This shared planet gives every species an inherent right to its resources. Acknowledging this, “Elan & ηVision” introduces the initiative "IKSHANA - LOVE ANIMALS" this year.
+
+            Our aim is to raise awareness about the challenges animals face and emphasize their importance in the ecosystem. These creatures, many of whom are vulnerable due to various factors, warrant our attention and care. Through our initiative, we hope to create a platform where discussions about animal welfare take precedence. From conservation efforts to promoting kindness towards animals, we aspire to make a positive change. Let's work together to ensure a harmonious coexistence with all Earth's inhabitants.
           </div>
         </section>
         <Footer />
