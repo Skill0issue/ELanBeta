@@ -4,7 +4,7 @@ const ProfileCard = ({ name, position, profilePhoto, className, ...props }) => {
   return (
     <div
       className={`bg-[rgba(255,255,255,0.00)] w-[13.5rem] h-[22.18rem] relative overflow-hidden ${className}`}
-      style={{ marginLeft: '2rem', marginRight: '2rem' }}
+      style={{ marginLeft: '2rem', marginRight: '2rem', marginBottom: '2rem' }}
     >
       <div className="bg-[#ee6983] rounded-[15.2rem] absolute right-[5.88%] left-[0%] w-[94.12%] bottom-[-0.05%] top-[1.8%] h-[98.25%]"></div>
       <div className="bg-[#850e35] rounded-[15.2rem] absolute right-[0%] left-[5.88%] w-[94.12%] bottom-[1.75%] top-[0%] h-[98.25%]"></div>
