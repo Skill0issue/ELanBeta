@@ -5,6 +5,9 @@ import VitePages from 'vite-plugin-pages';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/Skill0issue.github.io/',
+  base: '/ELanBeta/',
   plugins: [react(), tailwindcss(), VitePages()],
+  build: {
+    chunkSizeWarningLimit: 1000, // Increase the warning limit to 1 MB
+  },
 });
