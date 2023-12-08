@@ -5,6 +5,6 @@ import VitePages from 'vite-plugin-pages';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/ELanBeta',
+  base: '/Skill0issue.github.io/',
   plugins: [react(), tailwindcss(), VitePages()],
 });
