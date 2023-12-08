@@ -5,13 +5,14 @@ import { AiOutlineArrowLeft } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import CompetitionsBox from "./subcomponents/competitionsBox/CompetitionsBox";
+import gng from '/src/assets/competitions/glitz_and_glamour.PNG'
 
 const Competitions = () => {
   const [culty, setCulty] = useState(1);
   const cultiCompetitions = [
     {
       title: "Glitz & Glamour",
-      src: "/src/assets/competitions/glitz_and_glamour.PNG",
+      src: {gng},
       description:
         "Glitz & Glamour is a thrilling spectacle where aspiring models and designers come together to showcase their talents and creativity. It's an exhilarating fusion of glamour, artistry, and self-expression that captivates both the participants and the audience, celebrating fashion and serving as a platform for talent to shine.",
     },
