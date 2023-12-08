@@ -1,6 +1,7 @@
 import './CompetitionsBox.scss'
 
 const CompetitionsBox = ({info}) => {
+  console.log(info.src) //Debugging
   return (
     <div
       id="CompetitionsBox"  className="items-center inline-block border-2 border-solid group border-rose-800"
