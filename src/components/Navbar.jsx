@@ -5,6 +5,7 @@ import {
   AiOutlineYoutube,
   AiFillLinkedin,
 } from "react-icons/ai";
+import logo from "/assets/elan.png"
 
 const Navbar = ({home, ...props}) => {
   const [displayLinks, setDisplayLinks] = useState(false);
@@ -56,7 +57,7 @@ const Navbar = ({home, ...props}) => {
             <span></span>
           </div>
           <Link to="/">
-            <img className={`w-10 h-10 aspect-square ${logoVisible || !home ? 'inherit' : 'hidden'}`} src={'/assets/elan.png'} />
+            <img className={`w-10 h-10 aspect-square ${logoVisible || !home ? 'inherit' : 'hidden'}`} src={logo} />
           </Link>
         </div>
         <div className={`${displayLinks ? 'flex flex-col color-white w-screen' : 'hidden'} md:flex md:w-screen links justify-evenly md:flex-row md:h-16 h-[80%] items-center`}>
