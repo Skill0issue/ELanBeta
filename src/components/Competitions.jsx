@@ -5,7 +5,7 @@ import { AiOutlineArrowLeft } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import CompetitionsBox from "./subcomponents/competitionsBox/CompetitionsBox";
-import gng from '/src/assets/competitions/glitz_and_glamour.PNG'
+import gng from '/src/assets/competitions/glitz_and_glamour.png'
 
 const Competitions = () => {
   const [culty, setCulty] = useState(1);
