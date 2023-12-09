@@ -37,12 +37,12 @@ const Footer = () => {
           </div>
           <div>
             <span className="font-Mplus md:text-[24px] text-[12px] font-bold text-white hidden md:flex">
-              Mail US:{" "}
+              Mail us:{" "}
               <a
-                href="mailto:elan@iith.ac.in"
-                className="hidden underline md:flex"
+                href="mailto:elan@sa.iith.ac.in"
+                className="hidden md:flex ml-1"
               >
-                elan@iith.ac.in
+                elan@sa.iith.ac.in
               </a>
             </span>
           </div>

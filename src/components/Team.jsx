@@ -95,14 +95,14 @@ const Team = () => {
             />
           </Link>
           <div className="text-3xl p-4 mb-6 text-[#850E35] font-bold flex flex-col items-center justify-evenly">
-            <span className="inline-block mb-8 text-4xl">
+            <span className="inline-block mb-8 text-4xl overflow-hidden">
               OVERALL COORDINATOR
             </span>
             <div className="flex flex-row flex-wrap justify-evenly">
             <ProfileCard name={"MANIKANTA"} position={"OC"} profilePhoto={manikanta}/>
             </div>
 
-            <span className="inline-block mb-8 text-4xl">
+            <span className="inline-block mb-8 text-4xl overflow-hidden">
               PR, WEB & INFORMALS
             </span>
             <div className="flex flex-row flex-wrap justify-evenly">
@@ -117,7 +117,7 @@ const Team = () => {
             <ProfileCoord name={"MADHURIMA"} domain={"INFORMALS"} profilePhoto={madhurima}/>
             </div>
 
-            <span className="inline-block mb-8 text-4xl">
+            <span className="inline-block mb-8 text-4xl overflow-hidden">
               TECHY & WORKSHOPS
             </span>
             <div className="flex flex-row flex-wrap justify-evenly">
@@ -130,7 +130,7 @@ const Team = () => {
             <ProfileCoord name={"K.J. ABHAY"} domain={"WORKSHOPS"} profilePhoto={abhay}/>
             </div>
 
-            <span className="inline-block mb-8 text-4xl">
+            <span className="inline-block mb-8 text-4xl overflow-hidden">
               PRODUCTION, PRONITES & SECURITY
             </span>
             <div className="flex flex-row flex-wrap justify-evenly">
@@ -140,7 +140,7 @@ const Team = () => {
             <ProfileCoord name={"AGAM"} domain={"SECURITY"} profilePhoto={agam}/>
             </div>
 
-            <span className="inline-block mb-8 text-4xl">
+            <span className="inline-block mb-8 text-4xl overflow-hidden">
               SPONSORSHIP
             </span>
             <div className="flex flex-row flex-wrap justify-evenly">
@@ -153,7 +153,7 @@ const Team = () => {
             <ProfileCoord name={"VISHNU S."} domain={"SPONSORSHIP"} profilePhoto={vishnus}/>
             </div>
 
-            <span className="inline-block mb-8 text-4xl">
+            <span className="inline-block mb-8 text-4xl overflow-hidden">
               PUBLICITY
             </span>
             <div className="flex flex-row flex-wrap justify-evenly">
@@ -168,7 +168,7 @@ const Team = () => {
             <ProfileCoord name={"RAM"} domain={"PUBLICITY"} profilePhoto={ram}/>
             </div>
 
-            <span className="inline-block mb-8 text-4xl">
+            <span className="inline-block mb-8 text-4xl overflow-hidden">
               FINANCE
             </span>
             <div className="flex flex-row flex-wrap justify-evenly">
@@ -176,7 +176,7 @@ const Team = () => {
             <ProfileCoord name={"ARYAN B."} domain={"FINANCE"} profilePhoto={aryanb}/>
             </div>
 
-            <span className="inline-block mb-8 text-4xl">
+            <span className="inline-block mb-8 text-4xl overflow-hidden">
               HOSPITALITY, INFRA & TRANSPORT
             </span>
             <div className="flex flex-row flex-wrap justify-evenly">
@@ -195,7 +195,7 @@ const Team = () => {
             <ProfileCoord name={"C.V.P. REDDY"} domain={"TRANSPORT"} profilePhoto={paav}/>
             </div>
 
-            <span className="inline-block mb-8 text-4xl">
+            <span className="inline-block mb-8 text-4xl overflow-hidden">
               CULTI & BIGGIES, EML, LITR, SOCIAL CAUSE
             </span>
             <div className="flex flex-row flex-wrap justify-evenly">
@@ -211,7 +211,7 @@ const Team = () => {
             <ProfileCoord name={"ASRITHA"} domain={"SOCIAL CAUSE"} profilePhoto={asritha}/>
             </div>
 
-            <span className="inline-block mb-8 text-4xl">
+            <span className="inline-block mb-8 text-4xl overflow-hidden">
               CREATIVES & MULTIMEDIA
             </span>
             <div className="flex flex-row flex-wrap justify-evenly">
