@@ -7,7 +7,7 @@ import {
 } from "react-icons/ai";
 import logo from "/assets/elan.png"
 
-const Navbar = ({home, ...props}) => {
+const Navbar = ({ home, ...props }) => {
   const [displayLinks, setDisplayLinks] = useState(false);
   const [isOpen, setIsOpen] = useState(true);
   const [logoVisible, setLogoVisible] = useState(false);
@@ -81,9 +81,15 @@ const Navbar = ({home, ...props}) => {
           </Link>
         </div>
         <div className={`${displayLinks ? 'flex' : 'hidden'} flex-row w-screen gap-2 p-4 md:hidden mb-4`}>
-          <AiOutlineInstagram size={64} color="white" />
-          <AiOutlineYoutube size={64} color='white' />
-          <AiFillLinkedin size={64} color='white' />
+          <a href="https://www.instagram.com/elan_nvision.iith" target="_blank">
+            <AiOutlineInstagram size={64} color="white" />
+          </a>
+          <a href="https://youtube.com/@ElanIITHyderabad" target="_blank">
+            <AiOutlineYoutube size={64} color='white' />
+          </a>
+          <a href="https://in.linkedin.com/company/elan-nvision-iith" target="_blank">
+            <AiFillLinkedin size={64} color='white' />
+          </a>
         </div>
       </div>
     </>
