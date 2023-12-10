@@ -18,31 +18,40 @@ const Footer = () => {
           />
           <div className="inline-flex gap-4 p-4 md:gap-5">
             {/* Change the value if you want to make it more responsive i Cant be bothered with it */}
-            <AiFillLinkedin
-              size={`${window.screen.innerwidth > 950 ? 64 : 32}`}
-              color={"white"}
-            />
-            <AiOutlineInstagram
-              size={`${window.screen.innerwidth > 950 ? 64 : 32}`}
-              color={"white"}
-            />
-            <AiOutlineYoutube
-              size={`${window.screen.innerwidth > 950 ? 64 : 32}`}
-              color={"white"}
-            />
-            <AiFillFacebook
-              size={`${window.screen.innerwidth > 950 ? 64 : 32}`}
-              color={"white"}
-            />
+            <a href="https://in.linkedin.com/company/elan-nvision-iith" target="_blank">
+              <AiFillLinkedin
+                size={`${window.screen.innerwidth > 950 ? 64 : 32}`}
+                color={"white"}
+              />
+            </a>
+            <a href="https://www.instagram.com/elan_nvision.iith" target="_blank">
+              <AiOutlineInstagram
+                size={`${window.screen.innerwidth > 950 ? 64 : 32}`}
+                color={"white"}
+              />
+            </a>
+            <a href="https://youtube.com/@ElanIITHyderabad" target="_blank">
+              <AiOutlineYoutube
+                size={`${window.screen.innerwidth > 950 ? 64 : 32}`}
+                color={"white"}
+              />
+            </a>
+            <a href="https://www.facebook.com/elannvision.iithyderabad" target="_blank">
+              <AiFillFacebook
+                size={`${window.screen.innerwidth > 950 ? 64 : 32}`}
+                color={"white"}
+              />
+            </a>
+
           </div>
           <div>
             <span className="font-Mplus md:text-[24px] text-[12px] font-bold text-white hidden md:flex">
-              Mail US:{" "}
+              Mail us:{" "}
               <a
-                href="mailto:elan@iith.ac.in"
-                className="hidden underline md:flex"
+                href="mailto:elan@sa.iith.ac.in"
+                className="hidden md:flex ml-1"
               >
-                elan@iith.ac.in
+                elan@sa.iith.ac.in
               </a>
             </span>
           </div>
@@ -52,7 +61,7 @@ const Footer = () => {
             CONTACT US
           </h2>
           <span className="text-[12px] md:text-xl font-Mplus font-extrabold">
-            Manikanta Uppulapu, Overall Coordinator <br /> 77300 06389 <br />{" "}
+            Manikanta Uppulapu, Overall Head <br /> 77300 06389 <br />{" "}
             Sumedh Kashikar, Head of Public Relations <br /> 76010 41880
           </span>
         </div>

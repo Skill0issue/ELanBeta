@@ -84,8 +84,8 @@ const Home = () => {
             <div className="heading-border">
               <span className="heading-1">Elan & ηVision</span>
             </div>
-            <Link to="/Workshops" className="border-register hover:bg-[#EE6983] group">
-              <span className="link-register group-hover:text-white">REGISTER FOR WORKSHOPS</span>
+            <Link to="/Workshops" className="border-register">
+              <span className="link-register">REGISTER FOR WORKSHOPS</span>
             </Link>
           </div>
           <div id="scroll-down" className="flex justify-center h-auto p-4">

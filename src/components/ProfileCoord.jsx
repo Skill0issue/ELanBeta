@@ -15,7 +15,7 @@ const ProfileCoord = ({ name, domain, profilePhoto, className, ...props }) => {
         {name}
       </div>
       <div
-        className="text-[#ffffff] text-center absolute right-[14.65%] left-[20.53%] w-[64.82%] bottom-[23.71%] top-[69%] h-[9%] flex items-center justify-center"
+        className="text-[#ffffff] text-center absolute right-[14.65%] left-[20.53%] w-[64.82%] bottom-[23.71%] top-[69%] h-[9%] flex items-center justify-center overflow-hidden"
         style={{
           font: "600 italic 1rem 'OpenSans-SemiBoldItalic', sans-serif",
         }}

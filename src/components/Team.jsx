@@ -20,7 +20,7 @@ import shivanand from '../assets/profile/shivanand.jpeg'
 import naman from '../assets/profile/naman.jpeg'
 import adityavs from '../assets/profile/adityavs.jpg'
 import uday from '../assets/profile/uday.jpg'
-import kartikeya from '../assets/profile/kartikeya.jpg'
+// import kartikeya from '../assets/profile/kartikeya.jpg'
 import ananya from '../assets/profile/ananya.jpg'
 import chetana from '../assets/profile/chetana.jpg'
 import aryansr from '../assets/profile/aryansr.jpg'
@@ -35,7 +35,7 @@ import aryanj from '../assets/profile/aryanj.jpg'
 import varshini from '../assets/profile/varshini.jpg'
 import antalene from '../assets/profile/antalene.jpg'
 import syed from '../assets/profile/syed.jpg'
-import sumukha from '../assets/profile/sumukha.jpg'
+// import sumukha from '../assets/profile/sumukha.jpg'
 import bhavesh from '../assets/profile/bhavesh.jpeg'
 import paav from '../assets/profile/paav.jpg'
 import deekshitha from '../assets/profile/deekshitha.jpg'
@@ -68,7 +68,7 @@ import yash from '../assets/profile/yash.jpeg'
 import monish from '../assets/profile/monish.jpg'
 import shees from '../assets/profile/shees.jpg'
 import madhurima from '../assets/profile/madhurima.jpg'
-import saikumar from '../assets/profile/saikumar.jpg'
+// import saikumar from '../assets/profile/saikumar.jpg'
 import sreevas from '../assets/profile/sreevas.jpeg'
 import kamya from '../assets/profile/kamya.jpeg'
 import vaishnavi from '../assets/profile/vaishnavi.jpeg'
@@ -86,152 +86,152 @@ const Team = () => {
     <>
       <div className="w-screen bg-[#FFF5E4]">
         <Navbar />
-        <section className="w-screen h-auto pt-24 md:h-auto md:m-0">
+        <section className="w-screen h-auto px-8 pt-24 md:m-0">
           <Link to="/">
             <AiOutlineArrowLeft
               size={60}
-              color={"#874356"}
-              style={{ marginLeft: '10px' }} // Adjust the margin value as needed
+              color={'#874356'}
+              className="w-6 h-6 md:w-14 md:h-12 ml-2 sm:ml-1 md:ml-8 lg:ml-4"
             />
           </Link>
           <div className="text-3xl p-4 mb-6 text-[#850E35] font-bold flex flex-col items-center justify-evenly">
-            <span className="inline-block mb-8 text-4xl">
-              OVERALL COORDINATOR
+            <span className="inline-block mb-8 text-4xl overflow-hidden">
+              OVERALL HEAD
             </span>
             <div className="flex flex-row flex-wrap justify-evenly">
-            <ProfileCard name={"MANIKANTA"} position={"OC"} profilePhoto={manikanta}/>
+              <ProfileCard name={"MANIKANTA"} position={"OVERALL HEAD"} profilePhoto={manikanta} />
             </div>
 
-            <span className="inline-block mb-8 text-4xl">
+            <span className="inline-block mb-8 text-4xl overflow-hidden">
               PR, WEB & INFORMALS
             </span>
             <div className="flex flex-row flex-wrap justify-evenly">
-            <ProfileCard name={"SUMEDH"} position={"HEAD"} profilePhoto={sumedh}/>
-            <ProfileCoord name={"HIMANSHU"} domain={"WEB"} profilePhoto={himanshu}/>
-            <ProfileCoord name={"ARMAAN"} domain={"WEB"} profilePhoto={armaan}/>
-            <ProfileCoord name={"NIHAR"} domain={"WEB"} profilePhoto={nihar}/>
-            <ProfileCoord name={"SADHIKA"} domain={"PR"} profilePhoto={sadhika}/>
-            <ProfileCoord name={"DHRUV S."} domain={"PR"} profilePhoto={dhruv}/>
-            <ProfileCoord name={"LAKSHYA"} domain={"PR"} profilePhoto={lakshya}/>
-            <ProfileCoord name={"VILDAAN"} domain={"INFORMALS"} profilePhoto={vildaan}/>
-            <ProfileCoord name={"MADHURIMA"} domain={"INFORMALS"} profilePhoto={madhurima}/>
+              <ProfileCard name={"SUMEDH"} position={"HEAD"} profilePhoto={sumedh} />
+              <ProfileCoord name={"HIMANSHU"} domain={"WEB"} profilePhoto={himanshu} />
+              <ProfileCoord name={"ARMAAN"} domain={"WEB"} profilePhoto={armaan} />
+              <ProfileCoord name={"NIHAR"} domain={"WEB"} profilePhoto={nihar} />
+              <ProfileCoord name={"SADHIKA"} domain={"PR"} profilePhoto={sadhika} />
+              <ProfileCoord name={"DHRUV S."} domain={"PR"} profilePhoto={dhruv} />
+              <ProfileCoord name={"LAKSHYA"} domain={"PR"} profilePhoto={lakshya} />
+              <ProfileCoord name={"VILDAAN"} domain={"INFORMALS"} profilePhoto={vildaan} />
+              <ProfileCoord name={"MADHURIMA"} domain={"INFORMALS"} profilePhoto={madhurima} />
             </div>
 
-            <span className="inline-block mb-8 text-4xl">
+            <span className="inline-block mb-8 text-4xl overflow-hidden">
               TECHY & WORKSHOPS
             </span>
             <div className="flex flex-row flex-wrap justify-evenly">
-            <ProfileCard name={"ADITYA S."} position={"HEAD"} profilePhoto={adityas}/>
-            <ProfileCoord name={"VAISHNAVI"} domain={"TECHY"} profilePhoto={vaishnavi}/>
-            <ProfileCoord name={"YASWANTH"} domain={"TECHY"} profilePhoto={edara}/>
-            <ProfileCoord name={"ANIRUDH"} domain={"TECHY"} profilePhoto={anirudh}/>
-            <ProfileCoord name={"MEET"} domain={"WORKSHOPS"} profilePhoto={meet}/>
-            <ProfileCoord name={"SHRUTI"} domain={"WORKSHOPS"} profilePhoto={shruti}/>
-            <ProfileCoord name={"K.J. ABHAY"} domain={"WORKSHOPS"} profilePhoto={abhay}/>
+              <ProfileCard name={"ADITYA S."} position={"HEAD"} profilePhoto={adityas} />
+              <ProfileCoord name={"VAISHNAVI"} domain={"TECHY"} profilePhoto={vaishnavi} />
+              <ProfileCoord name={"YASWANTH"} domain={"TECHY"} profilePhoto={edara} />
+              <ProfileCoord name={"ANIRUDH"} domain={"TECHY"} profilePhoto={anirudh} />
+              <ProfileCoord name={"MEET"} domain={"WORKSHOPS"} profilePhoto={meet} />
+              <ProfileCoord name={"SHRUTI"} domain={"WORKSHOPS"} profilePhoto={shruti} />
+              <ProfileCoord name={"K.J. ABHAY"} domain={"WORKSHOPS"} profilePhoto={abhay} />
             </div>
 
-            <span className="inline-block mb-8 text-4xl">
+            <span className="inline-block mb-8 text-4xl overflow-hidden">
               PRODUCTION, PRONITES & SECURITY
             </span>
             <div className="flex flex-row flex-wrap justify-evenly">
-            <ProfileCard name={"GAURANG"} position={"HEAD"} profilePhoto={gaurang}/>
-            <ProfileCoord name={"TANMAY"} domain={"PRODUCTION"} profilePhoto={tanmay}/>
-            <ProfileCoord name={"SHEES"} domain={"PRODUCTION"} profilePhoto={shees}/>
-            <ProfileCoord name={"AGAM"} domain={"SECURITY"} profilePhoto={agam}/>
+              <ProfileCard name={"GAURANG"} position={"HEAD"} profilePhoto={gaurang} />
+              <ProfileCoord name={"TANMAY"} domain={"PRODUCTION"} profilePhoto={tanmay} />
+              <ProfileCoord name={"SHEES"} domain={"PRODUCTION"} profilePhoto={shees} />
+              <ProfileCoord name={"AGAM"} domain={"SECURITY"} profilePhoto={agam} />
             </div>
 
-            <span className="inline-block mb-8 text-4xl">
+            <span className="inline-block mb-8 text-4xl overflow-hidden">
               SPONSORSHIP
             </span>
             <div className="flex flex-row flex-wrap justify-evenly">
-            <ProfileCard name={"YASH"} position={"HEAD"} profilePhoto={yash}/>
-            <ProfileCoord name={"ADITYA V.S."} domain={"SPONSORSHIP"} profilePhoto={adityavs}/>
-            <ProfileCoord name={"SHIVANAND"} domain={"SPONSORSHIP"} profilePhoto={shivanand}/>
-            <ProfileCoord name={"NAMANPREET"} domain={"SPONSORSHIP"} profilePhoto={naman}/>
-            <ProfileCoord name={"ANEK"} domain={"SPONSORSHIP"} profilePhoto={anek}/>
-            <ProfileCoord name={"SREEVAS"} domain={"SPONSORSHIP"} profilePhoto={sreevas}/>
-            <ProfileCoord name={"VISHNU S."} domain={"SPONSORSHIP"} profilePhoto={vishnus}/>
+              <ProfileCard name={"YASH"} position={"HEAD"} profilePhoto={yash} />
+              <ProfileCoord name={"ADITYA V.S."} domain={"SPONSORSHIP"} profilePhoto={adityavs} />
+              <ProfileCoord name={"SHIVANAND"} domain={"SPONSORSHIP"} profilePhoto={shivanand} />
+              <ProfileCoord name={"NAMANPREET"} domain={"SPONSORSHIP"} profilePhoto={naman} />
+              <ProfileCoord name={"ANEK"} domain={"SPONSORSHIP"} profilePhoto={anek} />
+              <ProfileCoord name={"SREEVAS"} domain={"SPONSORSHIP"} profilePhoto={sreevas} />
+              <ProfileCoord name={"VISHNU S."} domain={"SPONSORSHIP"} profilePhoto={vishnus} />
             </div>
 
-            <span className="inline-block mb-8 text-4xl">
+            <span className="inline-block mb-8 text-4xl overflow-hidden">
               PUBLICITY
             </span>
             <div className="flex flex-row flex-wrap justify-evenly">
-            <ProfileCard name={"VIGHNESH"} position={"HEAD"} profilePhoto={vighnesh}/>
-            <ProfileCard name={"ARYAN S."} position={"HEAD"} profilePhoto={aryansr}/>
-            <ProfileCoord name={"UDAY"} domain={"PUBLICITY"} profilePhoto={uday}/>
-            <ProfileCoord name={"KARTIKEYA"} domain={"PUBLICITY"} profilePhoto={kartikeya}/>
-            <ProfileCoord name={"ANANYA S."} domain={"PUBLICITY"} profilePhoto={ananya}/>
-            <ProfileCoord name={"N. CHETANA"} domain={"PUBLICITY"} profilePhoto={chetana}/>
-            <ProfileCoord name={"SUDDHODHAN"} domain={"PUBLICITY"} profilePhoto={suddhodhan}/>
-            <ProfileCoord name={"SAIKUMAR"} domain={"PUBLICITY"} profilePhoto={saikumar}/>
-            <ProfileCoord name={"RAM"} domain={"PUBLICITY"} profilePhoto={ram}/>
+              <ProfileCard name={"VIGHNESH"} position={"HEAD"} profilePhoto={vighnesh} />
+              <ProfileCard name={"ARYAN S."} position={"HEAD"} profilePhoto={aryansr} />
+              <ProfileCoord name={"UDAY"} domain={"PUBLICITY"} profilePhoto={uday} />
+              {/* <ProfileCoord name={"KARTIKEYA"} domain={"PUBLICITY"} profilePhoto={kartikeya}/> */}
+              <ProfileCoord name={"ANANYA S."} domain={"PUBLICITY"} profilePhoto={ananya} />
+              <ProfileCoord name={"N. CHETANA"} domain={"PUBLICITY"} profilePhoto={chetana} />
+              <ProfileCoord name={"SUDDHODHAN"} domain={"PUBLICITY"} profilePhoto={suddhodhan} />
+              {/* <ProfileCoord name={"SAIKUMAR"} domain={"PUBLICITY"} profilePhoto={saikumar}/> */}
+              <ProfileCoord name={"RAM"} domain={"PUBLICITY"} profilePhoto={ram} />
             </div>
 
-            <span className="inline-block mb-8 text-4xl">
+            <span className="inline-block mb-8 text-4xl overflow-hidden">
               FINANCE
             </span>
             <div className="flex flex-row flex-wrap justify-evenly">
-            <ProfileCard name={"HARTHIK"} position={"HEAD"} profilePhoto={harthik}/>
-            <ProfileCoord name={"ARYAN B."} domain={"FINANCE"} profilePhoto={aryanb}/>
+              <ProfileCard name={"HARTHIK"} position={"HEAD"} profilePhoto={harthik} />
+              <ProfileCoord name={"ARYAN B."} domain={"FINANCE"} profilePhoto={aryanb} />
             </div>
 
-            <span className="inline-block mb-8 text-4xl">
+            <span className="inline-block mb-8 text-4xl overflow-hidden">
               HOSPITALITY, INFRA & TRANSPORT
             </span>
             <div className="flex flex-row flex-wrap justify-evenly">
-            <ProfileCard name={"MEHUL S."} position={"HEAD"} profilePhoto={mehul}/>
-            <ProfileCard name={"RISHITHA"} position={"HEAD"} profilePhoto={rishitha}/>
-            <ProfileCoord name={"ARYAN J."} domain={"HOSPITALITY"} profilePhoto={aryanj}/>
-            <ProfileCoord name={"AASHRITA"} domain={"HOSPITALITY"} profilePhoto={aashrita}/>
-            <ProfileCoord name={"ADITYA V."} domain={"HOSPITALITY"} profilePhoto={adityav}/>
-            <ProfileCoord name={"K.S. VARSHINI"} domain={"HOSPITALITY"} profilePhoto={varshini}/>
-            <ProfileCoord name={"ANTALENE J."} domain={"HOSPITALITY"} profilePhoto={antalene}/>
-            <ProfileCoord name={"SYED M."} domain={"INFRA"} profilePhoto={syed}/>
-            <ProfileCoord name={"SAKETH"} domain={"INFRA"} profilePhoto={saketh}/>
-            {/* <ProfileCoord name={"SUMUKHA"} domain={"INFRA"} profilePhoto={sumukha}/> */}
-            <ProfileCoord name={"ANAND"} domain={"INFRA"} profilePhoto={anand}/>
-            <ProfileCoord name={"BHAVESH"} domain={"TRANSPORT"} profilePhoto={bhavesh}/>
-            <ProfileCoord name={"C.V.P. REDDY"} domain={"TRANSPORT"} profilePhoto={paav}/>
+              <ProfileCard name={"MEHUL S."} position={"HEAD"} profilePhoto={mehul} />
+              <ProfileCard name={"RISHITHA"} position={"HEAD"} profilePhoto={rishitha} />
+              <ProfileCoord name={"ARYAN J."} domain={"HOSPITALITY"} profilePhoto={aryanj} />
+              <ProfileCoord name={"AASHRITA"} domain={"HOSPITALITY"} profilePhoto={aashrita} />
+              <ProfileCoord name={"ADITYA V."} domain={"HOSPITALITY"} profilePhoto={adityav} />
+              <ProfileCoord name={"K.S. VARSHINI"} domain={"HOSPITALITY"} profilePhoto={varshini} />
+              <ProfileCoord name={"ANTALENE J."} domain={"HOSPITALITY"} profilePhoto={antalene} />
+              <ProfileCoord name={"SYED M."} domain={"INFRA"} profilePhoto={syed} />
+              <ProfileCoord name={"SAKETH"} domain={"INFRA"} profilePhoto={saketh} />
+              {/* <ProfileCoord name={"SUMUKHA"} domain={"INFRA"} profilePhoto={sumukha}/> */}
+              <ProfileCoord name={"ANAND"} domain={"INFRA"} profilePhoto={anand} />
+              <ProfileCoord name={"BHAVESH"} domain={"TRANSPORT"} profilePhoto={bhavesh} />
+              <ProfileCoord name={"C.V.P. REDDY"} domain={"TRANSPORT"} profilePhoto={paav} />
             </div>
 
-            <span className="inline-block mb-8 text-4xl">
+            <span className="inline-block mb-8 text-4xl overflow-hidden">
               CULTI & BIGGIES, EML, LITR, SOCIAL CAUSE
             </span>
             <div className="flex flex-row flex-wrap justify-evenly">
-            <ProfileCard name={"ANUSHKA"} position={"HEAD"} profilePhoto={anushka}/>
-            <ProfileCoord name={"DEEKSHITHA"} domain={"CULTI & BIGGIES"} profilePhoto={deekshitha}/>
-            <ProfileCoord name={"VISHNU P."} domain={"CULTI & BIGGIES"} profilePhoto={vishnup}/>
-            <ProfileCoord name={"SHREYA B."} domain={"CULTI & BIGGIES"} profilePhoto={shreyab}/>
-            <ProfileCoord name={"DHRUV A."} domain={"CULTI & BIGGIES"} profilePhoto={dhruva}/>
-            <ProfileCoord name={"MONISH"} domain={"EML"} profilePhoto={monish}/>
-            <ProfileCoord name={"UMAIR"} domain={"Litr"} profilePhoto={umair}/>
-            <ProfileCoord name={"PURAN"} domain={"Litr"} profilePhoto={puran}/>
-            <ProfileCoord name={"EDWARD"} domain={"Litr"} profilePhoto={edward}/>
-            <ProfileCoord name={"ASRITHA"} domain={"SOCIAL CAUSE"} profilePhoto={asritha}/>
+              <ProfileCard name={"ANUSHKA"} position={"HEAD"} profilePhoto={anushka} />
+              <ProfileCoord name={"DEEKSHITHA"} domain={"CULTI & BIGGIES"} profilePhoto={deekshitha} />
+              <ProfileCoord name={"VISHNU P."} domain={"CULTI & BIGGIES"} profilePhoto={vishnup} />
+              <ProfileCoord name={"SHREYA B."} domain={"CULTI & BIGGIES"} profilePhoto={shreyab} />
+              <ProfileCoord name={"DHRUV A."} domain={"CULTI & BIGGIES"} profilePhoto={dhruva} />
+              <ProfileCoord name={"MONISH"} domain={"EML"} profilePhoto={monish} />
+              <ProfileCoord name={"UMAIR"} domain={"Litr"} profilePhoto={umair} />
+              <ProfileCoord name={"PURAN"} domain={"Litr"} profilePhoto={puran} />
+              <ProfileCoord name={"EDWARD"} domain={"Litr"} profilePhoto={edward} />
+              <ProfileCoord name={"ASRITHA"} domain={"SOCIAL CAUSE"} profilePhoto={asritha} />
             </div>
 
-            <span className="inline-block mb-8 text-4xl">
+            <span className="inline-block mb-8 text-4xl overflow-hidden">
               CREATIVES & MULTIMEDIA
             </span>
             <div className="flex flex-row flex-wrap justify-evenly">
-            <ProfileCard name={"AAYUSH"} position={"HEAD"} profilePhoto={aayush}/>
-            <ProfileCard name={"HARSH"} position={"HEAD"} profilePhoto={harsh}/>
-            <ProfileCoord name={"SHREEVEL"} domain={"CREATIVES"} profilePhoto={shreevel}/>
-            <ProfileCoord name={"SHREEYA K."} domain={"CREATIVES"} profilePhoto={shreeyak}/>
-            <ProfileCoord name={"ANKITA"} domain={"CREATIVES"} profilePhoto={ankita}/>
-            <ProfileCoord name={"RADHIKA"} domain={"CREATIVES"} profilePhoto={radhika}/>
-            <ProfileCoord name={"HARI"} domain={"CREATIVES"} profilePhoto={hari}/>
-            <ProfileCoord name={"KAMYA R."} domain={"CREATIVES"} profilePhoto={kamya}/>
-            <ProfileCoord name={"SAHIL"} domain={"MULTIMEDIA"} profilePhoto={sahil}/>
-            <ProfileCoord name={"SNEHIL"} domain={"MULTIMEDIA"} profilePhoto={snehil}/>
-            <ProfileCoord name={"ANURAG"} domain={"MULTIMEDIA"} profilePhoto={anurag}/>
-            <ProfileCoord name={"ARJUN"} domain={"MULTIMEDIA"} profilePhoto={arjun}/>
+              <ProfileCard name={"AAYUSH"} position={"HEAD"} profilePhoto={aayush} />
+              <ProfileCard name={"HARSH"} position={"HEAD"} profilePhoto={harsh} />
+              <ProfileCoord name={"SHREEVEL"} domain={"CREATIVES"} profilePhoto={shreevel} />
+              <ProfileCoord name={"SHREEYA K."} domain={"CREATIVES"} profilePhoto={shreeyak} />
+              <ProfileCoord name={"ANKITA"} domain={"CREATIVES"} profilePhoto={ankita} />
+              <ProfileCoord name={"RADHIKA"} domain={"CREATIVES"} profilePhoto={radhika} />
+              <ProfileCoord name={"HARI"} domain={"CREATIVES"} profilePhoto={hari} />
+              <ProfileCoord name={"KAMYA R."} domain={"CREATIVES"} profilePhoto={kamya} />
+              <ProfileCoord name={"SAHIL"} domain={"MULTIMEDIA"} profilePhoto={sahil} />
+              <ProfileCoord name={"SNEHIL"} domain={"MULTIMEDIA"} profilePhoto={snehil} />
+              <ProfileCoord name={"ANURAG"} domain={"MULTIMEDIA"} profilePhoto={anurag} />
+              <ProfileCoord name={"ARJUN"} domain={"MULTIMEDIA"} profilePhoto={arjun} />
             </div>
 
 
           </div>
-          
+
         </section>
         <Footer />
       </div>
