@@ -20,7 +20,7 @@ import shivanand from '../assets/profile/shivanand.jpeg'
 import naman from '../assets/profile/naman.jpeg'
 import adityavs from '../assets/profile/adityavs.jpg'
 import uday from '../assets/profile/uday.jpg'
-import kartikeya from '../assets/profile/kartikeya.jpg'
+// import kartikeya from '../assets/profile/kartikeya.jpg'
 import ananya from '../assets/profile/ananya.jpg'
 import chetana from '../assets/profile/chetana.jpg'
 import aryansr from '../assets/profile/aryansr.jpg'
@@ -35,7 +35,7 @@ import aryanj from '../assets/profile/aryanj.jpg'
 import varshini from '../assets/profile/varshini.jpg'
 import antalene from '../assets/profile/antalene.jpg'
 import syed from '../assets/profile/syed.jpg'
-import sumukha from '../assets/profile/sumukha.jpg'
+// import sumukha from '../assets/profile/sumukha.jpg'
 import bhavesh from '../assets/profile/bhavesh.jpeg'
 import paav from '../assets/profile/paav.jpg'
 import deekshitha from '../assets/profile/deekshitha.jpg'
@@ -68,7 +68,7 @@ import yash from '../assets/profile/yash.jpeg'
 import monish from '../assets/profile/monish.jpg'
 import shees from '../assets/profile/shees.jpg'
 import madhurima from '../assets/profile/madhurima.jpg'
-import saikumar from '../assets/profile/saikumar.jpg'
+// import saikumar from '../assets/profile/saikumar.jpg'
 import sreevas from '../assets/profile/sreevas.jpeg'
 import kamya from '../assets/profile/kamya.jpeg'
 import vaishnavi from '../assets/profile/vaishnavi.jpeg'
@@ -160,11 +160,11 @@ const Team = () => {
             <ProfileCard name={"VIGHNESH"} position={"HEAD"} profilePhoto={vighnesh}/>
             <ProfileCard name={"ARYAN S."} position={"HEAD"} profilePhoto={aryansr}/>
             <ProfileCoord name={"UDAY"} domain={"PUBLICITY"} profilePhoto={uday}/>
-            <ProfileCoord name={"KARTIKEYA"} domain={"PUBLICITY"} profilePhoto={kartikeya}/>
+            {/* <ProfileCoord name={"KARTIKEYA"} domain={"PUBLICITY"} profilePhoto={kartikeya}/> */}
             <ProfileCoord name={"ANANYA S."} domain={"PUBLICITY"} profilePhoto={ananya}/>
             <ProfileCoord name={"N. CHETANA"} domain={"PUBLICITY"} profilePhoto={chetana}/>
             <ProfileCoord name={"SUDDHODHAN"} domain={"PUBLICITY"} profilePhoto={suddhodhan}/>
-            <ProfileCoord name={"SAIKUMAR"} domain={"PUBLICITY"} profilePhoto={saikumar}/>
+            {/* <ProfileCoord name={"SAIKUMAR"} domain={"PUBLICITY"} profilePhoto={saikumar}/> */}
             <ProfileCoord name={"RAM"} domain={"PUBLICITY"} profilePhoto={ram}/>
             </div>
 
