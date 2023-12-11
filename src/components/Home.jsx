@@ -172,8 +172,8 @@ const Home = () => {
         </section>
         <section className="flex flex-col justify-center h-auto p-4 md:p-32 items-centerreen item">
           <div className="flex flex-col py-8">
-            <h1 className="font-Moul text-[#850E35] text-4xl md:text-5xl lg:text-6xl p-4 mb-6 mx-auto self-center overflow-hidden">
-              SPONSORS
+            <h1 className="font-Moul text-[#850E35] text-4xl md:text-5xl lg:text-6xl p-4 mb-6 mx-auto self-center text-center overflow-hidden">
+              PREVIOUS SPONSORS
             </h1>
             <Box
               sx={{ width: "100%" }}
