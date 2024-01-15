@@ -93,6 +93,9 @@ const Navbar = ({ home, ...props }) => {
           <Link to="/Competitions" className={`nav-link ${location.pathname === "/Competitions" ? "text-white" : "hover:text-white hover:transform hover:translate-x-4 hover:translate-y-[-4px] transition-transform duration-300 ease-in-out"} `}>
             Competitions
           </Link>
+          <Link to="/Litfest" className={`nav-link ${location.pathname === "/Litfest" ? "text-white" : "hover:text-white hover:transform hover:translate-x-4 hover:translate-y-[-4px] transition-transform duration-300 ease-in-out"} `}>
+            Litfest
+          </Link>
           <Link to='/SocialCause' className={`nav-link ${location.pathname === "/SocialCause" ? "text-white" : "hover:text-white hover:transform hover:translate-x-4 hover:translate-y-[-4px] transition-transform duration-300 ease-in-out"} `}>
             SocialCause
           </Link>
