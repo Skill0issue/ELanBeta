@@ -2,8 +2,15 @@ import React from "react";
 import { Card, CardHeader, CardBody, CardFooter, Typography, Button } from "@material-tailwind/react";
 
 const LitfestCard = ({ title, description, img, registration, ...props }) => {
+      const formattedDescription = description.split("<br />")
+      .map((line, index) => (
+          <p key={index}>
+            {line}
+            <br />
+          </p>
+        ));
     return (
-        <Card className="mt-6 w-full md:w-96 rounded p-4" style={{ backgroundColor: "#F68989" }}>
+        <Card className="mt-6 w-full md:w-96 rounded p-4 h-full" style={{ backgroundColor: "#F68989" }}>
             <CardHeader color="blue-gray" className="relative h-56">
                 <img
                     src={img}
@@ -15,7 +22,7 @@ const LitfestCard = ({ title, description, img, registration, ...props }) => {
                     {title}
                 </Typography>
                 <Typography>
-                    {description}
+                    {formattedDescription}
                 </Typography>
             </CardBody>
             <CardFooter className="pt-0">
