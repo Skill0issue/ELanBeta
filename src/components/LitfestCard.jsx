@@ -10,7 +10,7 @@ const LitfestCard = ({ title, description, img, registration, ...props }) => {
           </p>
         ));
     return (
-        <Card className="mt-6 w-full md:w-96 rounded p-4 h-full" style={{ backgroundColor: "#F68989" }}>
+        <Card className="mt-6 w-full md:w-96 rounded p-4 h-full" style={{ backgroundColor: "" }}>
             <CardHeader color="blue-gray" className="relative h-56">
                 <img
                     src={img}
