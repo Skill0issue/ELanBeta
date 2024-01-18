@@ -83,7 +83,7 @@ const Navbar = ({ home, ...props }) => {
           </Link>
         </div>
 
-        <div className={`${displayLinks ? 'flex flex-col color-white w-screen' : 'hidden'} md:flex md:w-screen links justify-evenly md:flex-row md:h-16 h-[80%] items-center`}>
+        <div className={`${displayLinks ? 'flex flex-col color-white w-screen' : 'hidden'} md:flex md:w-screen links justify-evenly ml-4 md:flex-row md:h-16 h-[80%] items-center`}>
           {/* <Link to="/">Home</Link> */}
           <Link to="/Events" className={`nav-link ${location.pathname === "/Events" ? "text-white" : "hover:text-white hover:transform hover:translate-x-4 hover:translate-y-[-4px] transition-transform duration-300 ease-in-out"} `}>
             <span>
