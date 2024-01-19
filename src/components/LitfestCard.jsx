@@ -10,7 +10,8 @@ const LitfestCard = ({ title, description, img, registration, ...props }) => {
           </p>
         ));
     return (
-        <Card className="mt-6 w-full md:w-96 rounded p-4 h-full" style={{ backgroundColor: "" }}>
+      <div className="flex flex-col justify-center">
+        <Card className="mt-6 w-full md:w-96 rounded p-4 h-[40rem]" style={{ backgroundColor: "" }}>
             <CardHeader color="blue-gray" className="relative h-56">
                 <img
                     src={img}
@@ -26,11 +27,12 @@ const LitfestCard = ({ title, description, img, registration, ...props }) => {
                 </Typography>
             </CardBody>
             <CardFooter className="pt-0">
-                <a href={registration}>
+                <a href={registration} target="_blank">
                     <Button style={{ backgroundColor: "#874356" }} ripple="light" className="rounded-full text-lg md:text-base px-4 md:px-3 py-2 md:py-1">REGISTER</Button>
                 </a>
             </CardFooter>
         </Card>
+      </div>
     );
 };
 
