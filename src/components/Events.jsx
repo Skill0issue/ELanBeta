@@ -24,13 +24,13 @@ const Events = () => {
       <div className="w-screen bg-[#FFF5E4]">
         <Navbar />
         <section className="w-screen h-auto px-8 pt-24 md:m-0">
-          <Link to="/">
+          {/* <Link to="/">
             <AiOutlineArrowLeft
               size={60}
               color={'#874356'}
               className="w-6 h-6 md:w-14 md:h-12 ml-2 sm:ml-1 md:ml-8 lg:ml-4"
             />
-          </Link>
+          </Link> */}
           <div id="events">
             <div className="buttonGroupPapa">
               <div className="armButtonGroup">

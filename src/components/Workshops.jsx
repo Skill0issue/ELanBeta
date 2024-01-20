@@ -10,13 +10,13 @@ const Workshops = () => {
       <div className="w-screen bg-[#FFF5E4]">
         <Navbar home={false} />
         <section className="w-screen h-auto px-8 pt-24 md:m-0">
-          <Link to="/">
+          {/* <Link to="/">
             <AiOutlineArrowLeft
               size={60}
               color={'#874356'}
               className="w-6 h-6 md:w-14 md:h-12 ml-2 sm:ml-1 md:ml-8 lg:ml-4"
             />
-          </Link>
+          </Link> */}
           <h1 className='font-Moul text-[#850E35] text-4xl md:text-5xl lg:text-6xl p-6 mb-6 md:ml-4 overflow-hidden'>
             About Our Workshops
           </h1>

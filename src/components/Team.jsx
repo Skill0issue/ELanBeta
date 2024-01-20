@@ -87,13 +87,13 @@ const Team = () => {
       <div className="w-screen bg-[#FFF5E4]">
         <Navbar />
         <section className="w-screen h-auto px-8 pt-24 md:m-0">
-          <Link to="/">
+          {/* <Link to="/">
             <AiOutlineArrowLeft
               size={60}
               color={'#874356'}
               className="w-6 h-6 md:w-14 md:h-12 ml-2 sm:ml-1 md:ml-8 lg:ml-4"
             />
-          </Link>
+          </Link> */}
           <div className="text-3xl p-4 mb-6 text-[#850E35] font-bold flex flex-col items-center justify-evenly">
             <span className="inline-block mb-8 text-4xl overflow-hidden">
               OVERALL HEAD
