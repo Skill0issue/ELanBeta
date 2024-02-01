@@ -30,6 +30,7 @@ const CompetitionsDup = () => {
       registration:
         "https://forms.gle/i9JS6ciyJBcjt88f6",
       submission: true,
+      over: false,
     },
     {
       title: "A few lines of Rhymes",
@@ -39,6 +40,7 @@ const CompetitionsDup = () => {
       registration:
         "https://docs.google.com/forms/d/e/1FAIpQLSdk7WMtC0d2Y7sq2xNKwrE8xJ1onNXXyAhF8qfWCpvETtkSVw/viewform?usp=sf_link",
       submission: false,
+      over: false,
     },
     {
       title: "Bookish Breakdown",
@@ -48,6 +50,7 @@ const CompetitionsDup = () => {
       registration:
         "https://docs.google.com/forms/d/e/1FAIpQLScqrB_hMC3VtRgDW2uA4wPwsxRDIzHuSd_Mwlbxt3danMIEBA/viewform?usp=sf_link",
       submission: false,
+      over: false,
     },
     {
       title: "What If…?",
@@ -57,6 +60,7 @@ const CompetitionsDup = () => {
       registration:
         "https://forms.gle/V43WsvysCNKSAcuDA",
       submission: true,
+      over: false,
     },
     {
       title: "The Beginning of the End",
@@ -66,6 +70,7 @@ const CompetitionsDup = () => {
       registration:
         "https://docs.google.com/forms/d/e/1FAIpQLSe1S84fsj5emq4bMX41JrqaFZk4nV57r05PJi2nIUuDULgNkw/viewform?usp=sf_link",
       submission: false,
+      over: false,
     },
     {
       title: "Who wants to be a (budget) Shakespeare",
@@ -74,6 +79,7 @@ const CompetitionsDup = () => {
       registration:
         "https://docs.google.com/forms/d/e/1FAIpQLScz1jL-CB3YAvplNA5b0y_2zqWqoaNa7BMAjB9Xy1q96CV5xg/viewform?usp=sf_link",
       submission: false,
+      over: false,
     },
     {
       title: "Back to the future",
@@ -83,6 +89,7 @@ const CompetitionsDup = () => {
       registration:
         "https://docs.google.com/forms/d/e/1FAIpQLSd8TtiMtZrXIgj5LuL-OWJD-HIZh16fU2sSSEmsXn3HaZXgug/viewform?usp=sf_link",
       submission: false,
+      over: false,
     },
     {
       title: "Dialogue Rewind",
@@ -92,6 +99,7 @@ const CompetitionsDup = () => {
       registration:
         "https://docs.google.com/forms/d/e/1FAIpQLSdgvJpBdNAjlW5jCxAjqxh574yURj7ZcaJm_W_MGUhaxz_Bzw/viewform?usp=sf_link",
       submission: false,
+      over: false,
     },
     {
       title: "A Walk down Memory Lane",
@@ -101,6 +109,7 @@ const CompetitionsDup = () => {
       registration:
         "https://docs.google.com/forms/d/e/1FAIpQLScQbWhg98en1g6ldHpQ3IBqLMzoeVD2oqD-65ZLeDCkOoomqQ/viewform?usp=sf_link",
       submission: false,
+      over: false,
     },
     {
       title: "Campus Anonymous (Intra IITH)",
@@ -110,6 +119,7 @@ const CompetitionsDup = () => {
       registration:
         "https://docs.google.com/forms/d/e/1FAIpQLSfkNXcyx99Jw9ocjERwEXcnONDcOnimEe14O-CpbzfTG2o0TA/viewform?usp=sf_link",
       submission: false,
+      over: false,
     },
   ];
 
@@ -144,8 +154,9 @@ const CompetitionsDup = () => {
                       img={eachData.img}
                       registration={eachData.registration}
                       submission={eachData.submission}
+                      over={eachData.over}
                     />
-                    {console.log(eachData.submission)}
+                    {console.log(eachData.over)}
                   </div>
                 ))}
             </div>
