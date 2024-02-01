@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, CardHeader, CardBody, CardFooter, Typography, Button } from "@material-tailwind/react";
 
-const LitfestCard = ({ title, description, img, registration, ...props }) => {
+const LitfestCard = ({ title, description, img, registration, submission, ...props }) => {
       const formattedDescription = description.split("<br />")
       .map((line, index) => (
           <p key={index}>
@@ -28,7 +28,7 @@ const LitfestCard = ({ title, description, img, registration, ...props }) => {
             </CardBody>
             <CardFooter className="pt-0">
                 <a href={registration} target="_blank">
-                    <Button style={{ backgroundColor: "#874356" }} ripple="light" className="rounded-full text-lg md:text-base px-4 md:px-3 py-2 md:py-1">REGISTER</Button>
+                    <Button style={{ backgroundColor: "#874356" }} ripple="light" className="rounded-full text-lg md:text-base px-4 md:px-3 py-2 md:py-1">{submission ? "SUBMIT HERE": "REGISTER"}</Button>
                 </a>
             </CardFooter>
         </Card>

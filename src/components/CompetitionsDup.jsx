@@ -27,7 +27,8 @@ const CompetitionsDup = () => {
         "A famous dead personality vs 5 questions. Who do you think would win?Write to find out. In this challenge, you can choose a famous dead personality and frame five questions you would ask them, if you had the chance. ",
       img: ded,
       registration:
-        "https://docs.google.com/forms/d/e/1FAIpQLSf1bvRYHWSUDf9iuldk_52hK_h0cdkel2LXz6vpkHBx8_-Cmg/viewform?usp=sf_link",
+        "https://forms.gle/i9JS6ciyJBcjt88f6",
+      submission: true,
     },
     {
       title: "A few lines of Rhymes",
@@ -36,6 +37,7 @@ const CompetitionsDup = () => {
       img: rhymes,
       registration:
         "https://docs.google.com/forms/d/e/1FAIpQLSdk7WMtC0d2Y7sq2xNKwrE8xJ1onNXXyAhF8qfWCpvETtkSVw/viewform?usp=sf_link",
+      submission: false,
     },
     {
       title: "Bookish Breakdown",
@@ -44,6 +46,7 @@ const CompetitionsDup = () => {
       img: book,
       registration:
         "https://docs.google.com/forms/d/e/1FAIpQLScqrB_hMC3VtRgDW2uA4wPwsxRDIzHuSd_Mwlbxt3danMIEBA/viewform?usp=sf_link",
+      submission: false,
     },
     {
       title: "What If…?",
@@ -51,7 +54,8 @@ const CompetitionsDup = () => {
         "A fanfiction writing contest where you will have to create a crossover of two different fictional universes. “What if… Sherlock Holmes went to Game of Thrones?”  You’ll have to come up with one such theory. And in the story, you have to ponder and speculate how things in that universe would have turned out if the character they had chosen were present in it.",
       img: whatif,
       registration:
-        "https://docs.google.com/forms/d/e/1FAIpQLSfOzwzTeV-u2gqj7dutfXwlnuFYPvy_Szn_LTOY1zZxg_YB4g/viewform?usp=sf_link",
+        "https://forms.gle/V43WsvysCNKSAcuDA",
+      submission: true,
     },
     {
       title: "The Beginning of the End",
@@ -60,6 +64,7 @@ const CompetitionsDup = () => {
       img: begen,
       registration:
         "https://docs.google.com/forms/d/e/1FAIpQLSe1S84fsj5emq4bMX41JrqaFZk4nV57r05PJi2nIUuDULgNkw/viewform?usp=sf_link",
+        submission: false,
     },
     {
       title: "Who wants to be a (budget) Shakespeare",
@@ -67,6 +72,7 @@ const CompetitionsDup = () => {
       img: shakespear,
       registration:
         "https://docs.google.com/forms/d/e/1FAIpQLScz1jL-CB3YAvplNA5b0y_2zqWqoaNa7BMAjB9Xy1q96CV5xg/viewform?usp=sf_link",
+        submission: false,
     },
     {
       title: "Back to the future",
@@ -75,6 +81,7 @@ const CompetitionsDup = () => {
       img: btf,
       registration:
         "https://docs.google.com/forms/d/e/1FAIpQLSd8TtiMtZrXIgj5LuL-OWJD-HIZh16fU2sSSEmsXn3HaZXgug/viewform?usp=sf_link",
+        submission: false,
     },
     {
       title: "Dialogue Rewind",
@@ -83,6 +90,7 @@ const CompetitionsDup = () => {
       img: dia,
       registration:
         "https://docs.google.com/forms/d/e/1FAIpQLSdgvJpBdNAjlW5jCxAjqxh574yURj7ZcaJm_W_MGUhaxz_Bzw/viewform?usp=sf_link",
+        submission: false,
     },
     {
       title: "A Walk down Memory Lane",
@@ -91,6 +99,7 @@ const CompetitionsDup = () => {
       img: memo,
       registration:
         "https://docs.google.com/forms/d/e/1FAIpQLScQbWhg98en1g6ldHpQ3IBqLMzoeVD2oqD-65ZLeDCkOoomqQ/viewform?usp=sf_link",
+      submission: false,
     },
     {
       title: "Campus Anonymous (Intra IITH)",
@@ -99,6 +108,7 @@ const CompetitionsDup = () => {
       img: campa,
       registration:
         "https://docs.google.com/forms/d/e/1FAIpQLSfkNXcyx99Jw9ocjERwEXcnONDcOnimEe14O-CpbzfTG2o0TA/viewform?usp=sf_link",
+      submission: false,
     },
   ];
 
@@ -128,7 +138,9 @@ const CompetitionsDup = () => {
                       description={eachData.description}
                       img={eachData.img}
                       registration={eachData.registration}
+                      submission = {eachData.submission}
                     />
+                    {console.log(eachData.submission)}
                   </div>
                 ))}
             </div>
