@@ -3,6 +3,7 @@ import "./CompetitionsDup.scss";
 import Footer from "./Footer";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import { Link } from "react-router-dom";
+import { Button } from "@material-tailwind/react";
 import { useState } from "react";
 import LitfestCard from "./LitfestCard";
 
@@ -64,7 +65,7 @@ const CompetitionsDup = () => {
       img: begen,
       registration:
         "https://docs.google.com/forms/d/e/1FAIpQLSe1S84fsj5emq4bMX41JrqaFZk4nV57r05PJi2nIUuDULgNkw/viewform?usp=sf_link",
-        submission: false,
+      submission: false,
     },
     {
       title: "Who wants to be a (budget) Shakespeare",
@@ -72,7 +73,7 @@ const CompetitionsDup = () => {
       img: shakespear,
       registration:
         "https://docs.google.com/forms/d/e/1FAIpQLScz1jL-CB3YAvplNA5b0y_2zqWqoaNa7BMAjB9Xy1q96CV5xg/viewform?usp=sf_link",
-        submission: false,
+      submission: false,
     },
     {
       title: "Back to the future",
@@ -81,7 +82,7 @@ const CompetitionsDup = () => {
       img: btf,
       registration:
         "https://docs.google.com/forms/d/e/1FAIpQLSd8TtiMtZrXIgj5LuL-OWJD-HIZh16fU2sSSEmsXn3HaZXgug/viewform?usp=sf_link",
-        submission: false,
+      submission: false,
     },
     {
       title: "Dialogue Rewind",
@@ -90,7 +91,7 @@ const CompetitionsDup = () => {
       img: dia,
       registration:
         "https://docs.google.com/forms/d/e/1FAIpQLSdgvJpBdNAjlW5jCxAjqxh574yURj7ZcaJm_W_MGUhaxz_Bzw/viewform?usp=sf_link",
-        submission: false,
+      submission: false,
     },
     {
       title: "A Walk down Memory Lane",
@@ -116,7 +117,7 @@ const CompetitionsDup = () => {
     <>
       <div className="w-screen min-h-screen h-auto bg-[#FFF5E4]">
         <Navbar />
-        <section className="flex flex-col justify-start w-screen h-auto px-8 pt-24 md:m-0">
+        <section className="flex flex-col items-center justify-start w-screen h-auto px-8 pt-24 md:m-0">
           {/* <Link to="/">
             <AiOutlineArrowLeft
               size={60}
@@ -124,6 +125,10 @@ const CompetitionsDup = () => {
               className="w-6 h-6 md:w-14 md:h-12 ml-2 sm:ml-1 md:ml-8 lg:ml-4"
             />
           </Link> */}
+          <a href="https://docs.google.com/document/d/1K3MuGOdPOkkvGMg0gL8JysO4sZkv9tb6tJJHifLS7hQ/edit?usp=sharing" target="_blank">
+            <Button style={{ backgroundColor: "#874356", width: "fit-content", borderRadius: "4px", fontSize: "1.6rem" }} ripple="light" className="rounded-full text-lg md:text-base px-4 md:px-3 py-2 md:py-1">RULE BOOK & THEMES</Button>
+          </a>
+
           <div id="competitions">
             <div className="competitions cultiCompetitions">
               {culty == 1 &&
@@ -138,7 +143,7 @@ const CompetitionsDup = () => {
                       description={eachData.description}
                       img={eachData.img}
                       registration={eachData.registration}
-                      submission = {eachData.submission}
+                      submission={eachData.submission}
                     />
                     {console.log(eachData.submission)}
                   </div>
