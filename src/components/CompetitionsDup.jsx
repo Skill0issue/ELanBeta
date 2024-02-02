@@ -30,7 +30,7 @@ const CompetitionsDup = () => {
       registration:
         "https://forms.gle/i9JS6ciyJBcjt88f6",
       submission: true,
-      over: false,
+      over: true,
     },
     {
       title: "A few lines of Rhymes",
@@ -38,8 +38,8 @@ const CompetitionsDup = () => {
         "'Good,better,best. Never let it rest. Till your good is better and your better is best.' <br />-Lindsey Fairhurst <br />Put your poetry skills to display by writing a poem based on the given prompt.This time around, you will be given a theme and you’re  expected to construct the rhyme around that theme.",
       img: rhymes,
       registration:
-        "https://docs.google.com/forms/d/e/1FAIpQLSdk7WMtC0d2Y7sq2xNKwrE8xJ1onNXXyAhF8qfWCpvETtkSVw/viewform?usp=sf_link",
-      submission: false,
+        "https://forms.gle/9ChkVdS3ZFabAXSV7",
+      submission: true,
       over: false,
     },
     {
@@ -48,8 +48,8 @@ const CompetitionsDup = () => {
         "You are to imagine that you’re the author of your favorite book , and now try to tell the audience about your book in a way they buy it.",
       img: book,
       registration:
-        "https://docs.google.com/forms/d/e/1FAIpQLScqrB_hMC3VtRgDW2uA4wPwsxRDIzHuSd_Mwlbxt3danMIEBA/viewform?usp=sf_link",
-      submission: false,
+        "https://forms.gle/CVH55JCmS5igw8LF6",
+      submission: true,
       over: false,
     },
     {
@@ -60,7 +60,7 @@ const CompetitionsDup = () => {
       registration:
         "https://forms.gle/V43WsvysCNKSAcuDA",
       submission: true,
-      over: false,
+      over: true,
     },
     {
       title: "The Beginning of the End",
