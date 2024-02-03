@@ -40,7 +40,7 @@ const CompetitionsDup = () => {
       registration:
         "https://forms.gle/9ChkVdS3ZFabAXSV7",
       submission: true,
-      over: false,
+      over: true,
     },
     {
       title: "Bookish Breakdown",
@@ -50,7 +50,7 @@ const CompetitionsDup = () => {
       registration:
         "https://forms.gle/CVH55JCmS5igw8LF6",
       submission: true,
-      over: false,
+      over: true,
     },
     {
       title: "What If…?",
@@ -107,8 +107,8 @@ const CompetitionsDup = () => {
         "'In three words I can sum up everything I've learned about life: it goes on.'<br />- Robert Frost<br />We all have those days. ‘Core memories’, significant events in our lives. <br />We’d like you to write about one such noteworthy incident in your life and how it shaped your personality and perspective on things.",
       img: memo,
       registration:
-        "https://docs.google.com/forms/d/e/1FAIpQLScQbWhg98en1g6ldHpQ3IBqLMzoeVD2oqD-65ZLeDCkOoomqQ/viewform?usp=sf_link",
-      submission: false,
+        "https://forms.gle/WrofKutEuTfjAZyw5",
+      submission: true,
       over: false,
     },
     {
@@ -117,8 +117,8 @@ const CompetitionsDup = () => {
         "As a part of the Online Litfest, an online event- Campus Anonymous will be conducted exclusively for IITH Students.",
       img: campa,
       registration:
-        "https://docs.google.com/forms/d/e/1FAIpQLSfkNXcyx99Jw9ocjERwEXcnONDcOnimEe14O-CpbzfTG2o0TA/viewform?usp=sf_link",
-      submission: false,
+        "https://forms.gle/av1TMXxDbvnEYBJU8",
+      submission: true,
       over: false,
     },
   ];
