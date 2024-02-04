@@ -109,7 +109,7 @@ const CompetitionsDup = () => {
       registration:
         "https://forms.gle/WrofKutEuTfjAZyw5",
       submission: true,
-      over: false,
+      over: true,
     },
     {
       title: "Campus Anonymous (Intra IITH)",
@@ -119,7 +119,7 @@ const CompetitionsDup = () => {
       registration:
         "https://forms.gle/av1TMXxDbvnEYBJU8",
       submission: true,
-      over: false,
+      over: true,
     },
   ];
 
