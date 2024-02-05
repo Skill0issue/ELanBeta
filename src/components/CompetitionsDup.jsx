@@ -77,8 +77,8 @@ const CompetitionsDup = () => {
       description: "“A monologue speaks at people, not with people.”",
       img: shakespear,
       registration:
-        "https://docs.google.com/forms/d/e/1FAIpQLScz1jL-CB3YAvplNA5b0y_2zqWqoaNa7BMAjB9Xy1q96CV5xg/viewform?usp=sf_link",
-      submission: false,
+        "https://forms.gle/qFAcTvyAomNbmqUB7",
+      submission: true,
       over: false,
     },
     {
@@ -97,8 +97,8 @@ const CompetitionsDup = () => {
         "'I Know What I Have to Do But I Don't Know If I Have the Strength To Do It' <br />- Kylo Ren, Star Wars Ep VII <br />Are you a cinephile who wishes to express their love for their favorite dialogue of all time? Then this event is the place to do it! Choose your favorite dialogue (which is no easy task to begin with, there’s so many to pick from) and write away!",
       img: dia,
       registration:
-        "https://docs.google.com/forms/d/e/1FAIpQLSdgvJpBdNAjlW5jCxAjqxh574yURj7ZcaJm_W_MGUhaxz_Bzw/viewform?usp=sf_link",
-      submission: false,
+        "https://forms.gle/JB3tshZfGxzN3Jhn6",
+      submission: true,
       over: false,
     },
     {
